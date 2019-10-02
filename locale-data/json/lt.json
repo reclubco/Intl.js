@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "dd",
                 "E": "ccc",
+                "EBhm": "h:mm B, E",
+                "EBhms": "h:mm:ss B, E",
                 "Ed": "d, E",
                 "Ehm": "hh:mm a, E",
                 "EHm": "HH:mm, E",
@@ -47,6 +52,10 @@
                 "MMMM": "LLLL",
                 "MMMMd": "MMMM d 'd'.",
                 "MMMMEd": "MMMM d 'd'., E",
+                "MMMMW-count-one": "MMMM W 'sav'.",
+                "MMMMW-count-few": "MMMM W 'sav'.",
+                "MMMMW-count-many": "MMMM W 'sav'.",
+                "MMMMW-count-other": "MMMM W 'sav'.",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "y-MM",
@@ -59,7 +68,11 @@
                 "yMMMMd": "y 'm'. MMMM d 'd'.",
                 "yMMMMEd": "y 'm'. MMMM d 'd'., E",
                 "yQQQ": "y QQQ",
-                "yQQQQ": "y QQQQ"
+                "yQQQQ": "y QQQQ",
+                "yw-count-one": "Y w 'sav'.",
+                "yw-count-few": "Y w 'sav'.",
+                "yw-count-many": "Y w 'sav'.",
+                "yw-count-other": "Y w 'sav'."
             },
             "dateFormats": {
                 "yMMMMEEEEd": "y 'm'. MMMM d 'd'., EEEE",
@@ -299,7 +312,8 @@
             }
         },
         "currencies": {
-            "EUR": "€"
+            "EUR": "€",
+            "XXX": "¤"
         }
     }
 }

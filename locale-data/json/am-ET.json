@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -22,8 +27,8 @@
                 "EHms": "E HH:mm:ss",
                 "Gy": "y G",
                 "GyMMM": "MMM y G",
-                "GyMMMd": "MMM d፣ y G",
-                "GyMMMEd": "E፣ MMM d፣ y G",
+                "GyMMMd": "G y MMM d",
+                "GyMMMEd": "G y MMM d, E",
                 "h": "h a",
                 "H": "H",
                 "hm": "h:mm a",
@@ -42,6 +47,7 @@
                 "MMMEd": "E፣ MMM d",
                 "MMMMd": "MMMM d",
                 "MMMMEd": "E፣ MMMM d",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -52,10 +58,11 @@
                 "yMMMEd": "E፣ MMM d y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-other": "'week' w 'of' Y"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE ፣d MMMM y",
+                "yMMMMEEEEd": "y MMMM d, EEEE",
                 "yMMMMd": "d MMMM y",
                 "yMMMd": "d MMM y",
                 "yMd": "dd/MM/y"
@@ -251,7 +258,7 @@
                     "long": [
                         "ዓመተ ዓለም",
                         "ዓመተ ምሕረት",
-                        "BCE",
+                        "ዓ/ዓ",
                         "ዓ/ም"
                     ]
                 },
@@ -295,6 +302,7 @@
             "AUD": "AU$",
             "BRL": "R$",
             "CAD": "CA$",
+            "CNH": "የቻይና ዩዋን",
             "CNY": "CN¥",
             "ETB": "ብር",
             "EUR": "€",
@@ -313,7 +321,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

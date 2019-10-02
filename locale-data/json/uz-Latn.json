@@ -13,8 +13,13 @@
             "full": "{1}, {0}",
             "long": "{1}, {0}",
             "availableFormats": {
+                "Bh": "B h",
+                "Bhm": "B h:mm",
+                "Bhms": "B h:mm:ss",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E, B h:mm",
+                "EBhms": "E, B h:mm:ss",
                 "Ed": "d, E",
                 "Ehm": "E, h:mm a",
                 "EHm": "E, HH:mm",
@@ -30,9 +35,9 @@
                 "Hm": "HH:mm",
                 "hms": "h:mm:ss a",
                 "Hms": "HH:mm:ss",
-                "hmsv": "h:mm:ss (v)",
+                "hmsv": "h:mm:ss a (v)",
                 "Hmsv": "HH:mm:ss (v)",
-                "hmv": "h:mm (v)",
+                "hmv": "h:mm a (v)",
                 "Hmv": "HH:mm (v)",
                 "M": "LL",
                 "Md": "dd/MM",
@@ -41,9 +46,11 @@
                 "MMMd": "d-MMM",
                 "MMMEd": "E, d-MMM",
                 "MMMMd": "d-MMMM",
+                "MMMMW-count-one": "MMMM, W-'hafta'",
+                "MMMMW-count-other": "MMMM, W-'hafta'",
                 "ms": "mm:ss",
                 "y": "y",
-                "yM": "MM/y",
+                "yM": "MM.y",
                 "yMd": "dd/MM/y",
                 "yMEd": "E, dd/MM/y",
                 "yMMM": "MMM, y",
@@ -51,10 +58,12 @@
                 "yMMMEd": "E, d-MMM, y",
                 "yMMMM": "MMMM, y",
                 "yQQQ": "y, QQQ",
-                "yQQQQ": "y, QQQQ"
+                "yQQQQ": "y, QQQQ",
+                "yw-count-one": "Y, w-'hafta'",
+                "yw-count-other": "Y, w-'hafta'"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE, y MMMM dd",
+                "yMMMMEEEEd": "EEEE, d-MMMM, y",
                 "yMMMMd": "d-MMMM, y",
                 "yMMMd": "d-MMM, y",
                 "yMd": "dd/MM/yy"
@@ -123,13 +132,13 @@
                         "S"
                     ],
                     "short": [
-                        "Ya",
-                        "Du",
-                        "Se",
-                        "Ch",
-                        "Pa",
-                        "Ju",
-                        "Sh"
+                        "Yak",
+                        "Dush",
+                        "Sesh",
+                        "Chor",
+                        "Pay",
+                        "Jum",
+                        "Shan"
                     ],
                     "long": [
                         "yakshanba",
@@ -199,8 +208,8 @@
                         "iyun",
                         "iyul",
                         "avgust",
-                        "Sentabr",
-                        "Oktabr",
+                        "sentabr",
+                        "oktabr",
                         "noyabr",
                         "dekabr"
                     ]
@@ -216,13 +225,13 @@
                         "S"
                     ],
                     "short": [
-                        "Ya",
-                        "Du",
-                        "Se",
-                        "Ch",
-                        "Pa",
-                        "Ju",
-                        "Sh"
+                        "Yak",
+                        "Dush",
+                        "Sesh",
+                        "Chor",
+                        "Pay",
+                        "Jum",
+                        "Shan"
                     ],
                     "long": [
                         "yakshanba",
@@ -239,19 +248,19 @@
                         "m.a.",
                         "milodiy",
                         "e.a.",
-                        "CE"
+                        "mil."
                     ],
                     "short": [
                         "m.a.",
                         "milodiy",
                         "e.a.",
-                        "CE"
+                        "mil."
                     ],
                     "long": [
                         "miloddan avvalgi",
                         "milodiy",
                         "eramizdan avvalgi",
-                        "CE"
+                        "mil."
                     ]
                 },
                 "dayPeriods": {
@@ -283,7 +292,7 @@
             "latn": {
                 "decimal": ",",
                 "group": " ",
-                "nan": "haqiqiy son emas",
+                "nan": "son emas",
                 "plusSign": "+",
                 "minusSign": "-",
                 "percentSign": "%",
@@ -311,7 +320,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

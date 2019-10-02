@@ -13,13 +13,18 @@
             "full": "{1}, {0}",
             "long": "{1}, {0}",
             "availableFormats": {
+                "Bh": "h 'ч'. B",
+                "Bhm": "h:mm 'ч'. B",
+                "Bhms": "h:mm:ss 'ч'. B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E, h:mm 'ч'. B",
+                "EBhms": "E, h:mm:ss 'ч'. B",
                 "Ed": "E, d",
-                "Ehm": "E, h:mm a",
-                "EHm": "E, HH:mm",
-                "Ehms": "E, h:mm:ss a",
-                "EHms": "E, H:mm:ss",
+                "Ehm": "E, h:mm 'ч'. a",
+                "EHm": "E, HH:mm 'ч'.",
+                "Ehms": "E, h:mm:ss 'ч'. a",
+                "EHms": "E, H:mm:ss 'ч'.",
                 "Gy": "y 'г'. G",
                 "GyMMM": "MM.y 'г'. G",
                 "GyMMMd": "d.MM.y 'г'. G",
@@ -27,16 +32,16 @@
                 "GyMMMM": "MMMM y 'г'. G",
                 "GyMMMMd": "d MMMM y 'г'. G",
                 "GyMMMMEd": "E, d MMMM y 'г'. G",
-                "h": "h a",
-                "H": "H",
-                "hm": "h:mm a",
-                "Hm": "H:mm",
-                "hms": "h:mm:ss a",
-                "Hms": "H:mm:ss",
-                "hmsv": "h:mm:ss a v",
-                "Hmsv": "HH:mm:ss v",
-                "hmv": "h:mm a v",
-                "Hmv": "HH:mm v",
+                "h": "h 'ч'. a",
+                "H": "H 'ч'.",
+                "hm": "h:mm 'ч'. a",
+                "Hm": "H:mm 'ч'.",
+                "hms": "h:mm:ss 'ч'. a",
+                "Hms": "H:mm:ss 'ч'.",
+                "hmsv": "h:mm:ss 'ч'. a v",
+                "Hmsv": "HH:mm:ss 'ч'. v",
+                "hmv": "h:mm 'ч'. a v",
+                "Hmv": "HH:mm 'ч'. v",
                 "M": "L",
                 "Md": "d.MM",
                 "MEd": "E, d.MM",
@@ -47,9 +52,11 @@
                 "MMMMd": "d MMMM",
                 "MMMMdd": "d MMMM",
                 "MMMMEd": "E, d MMMM",
+                "MMMMW-count-one": "'седмица' W 'от' MMMM",
+                "MMMMW-count-other": "'седмица' W 'от' MMMM",
                 "ms": "m:ss",
                 "y": "y 'г'.",
-                "yM": "M.y 'г'.",
+                "yM": "MM.y 'г'.",
                 "yMd": "d.MM.y 'г'.",
                 "yMEd": "E, d.MM.y 'г'.",
                 "yMMM": "MM.y 'г'.",
@@ -59,7 +66,9 @@
                 "yMMMMd": "d MMMM y 'г'.",
                 "yMMMMEd": "E, d MMMM y 'г'.",
                 "yQQQ": "QQQ y 'г'.",
-                "yQQQQ": "QQQQ y 'г'."
+                "yQQQQ": "QQQQ y 'г'.",
+                "yw-count-one": "'седмица' w 'от' Y 'г'.",
+                "yw-count-other": "'седмица' w 'от' Y 'г'."
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d MMMM y 'г'.",
@@ -68,10 +77,10 @@
                 "yMd": "d.MM.yy 'г'."
             },
             "timeFormats": {
-                "hmmsszzzz": "H:mm:ss zzzz",
-                "hmsz": "H:mm:ss z",
-                "hms": "H:mm:ss",
-                "hm": "H:mm"
+                "hmmsszzzz": "H:mm:ss 'ч'. zzzz",
+                "hmsz": "H:mm:ss 'ч'. z",
+                "hms": "H:mm:ss 'ч'.",
+                "hm": "H:mm 'ч'."
             }
         },
         "calendars": {
@@ -279,8 +288,8 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{number} {currency}",
-                "negativePattern": "{minusSign}{number} {currency}"
+                "positivePattern": "0.00 {currency}",
+                "negativePattern": "{minusSign}0.00 {currency}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",
@@ -304,7 +313,8 @@
             "USD": "щ.д.",
             "XAF": "FCFA",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

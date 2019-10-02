@@ -13,9 +13,14 @@
             "full": "{1} 'am' {0}",
             "long": "{1} 'am' {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
-                "Ed": "E, d",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
+                "Ed": "d, E",
                 "Ehm": "E, h:mm a",
                 "EHm": "E, HH:mm",
                 "Ehms": "E, h:mm:ss a",
@@ -41,6 +46,12 @@
                 "MMMd": "d MMM",
                 "MMMEd": "E, d MMM",
                 "MMMMd": "MMMM d",
+                "MMMMW-count-zero": "'wythnos' W 'o' MMMM",
+                "MMMMW-count-one": "'wythnos' W 'o' MMMM",
+                "MMMMW-count-two": "'wythnos' W 'o' MMMM",
+                "MMMMW-count-few": "'wythnos' W 'o' MMMM",
+                "MMMMW-count-many": "'wythnos' W 'o' MMMM",
+                "MMMMW-count-other": "'wythnos' W 'o' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -52,7 +63,13 @@
                 "yMMMM": "MMMM y",
                 "yQ": "Q y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-zero": "'wythnos' w 'o' Y",
+                "yw-count-one": "'wythnos' w 'o' Y",
+                "yw-count-two": "'wythnos' w 'o' Y",
+                "yw-count-few": "'wythnos' w 'o' Y",
+                "yw-count-many": "'wythnos' w 'o' Y",
+                "yw-count-other": "'wythnos' w 'o' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d MMMM y",
@@ -157,8 +174,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "AM",
-                    "pm": "PM"
+                    "am": "yb",
+                    "pm": "yh"
                 }
             },
             "gregory": {
@@ -239,14 +256,14 @@
                     "narrow": [
                         "C",
                         "O",
-                        "BCE",
-                        "CE"
+                        "CCC",
+                        "CYCY"
                     ],
                     "short": [
                         "CC",
                         "OC",
-                        "BCE",
-                        "CE"
+                        "CCC",
+                        "CYCY"
                     ],
                     "long": [
                         "Cyn Crist",
@@ -256,8 +273,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "AM",
-                    "pm": "PM"
+                    "am": "yb",
+                    "pm": "yh"
                 }
             }
         }

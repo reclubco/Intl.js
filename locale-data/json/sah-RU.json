@@ -13,14 +13,19 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d, E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
                 "Ehms": "E h:mm:ss a",
                 "EHms": "E HH:mm:ss",
-                "Gy": "G y",
+                "Gy": "y 'с'. G",
                 "GyMMM": "G y MMM",
                 "GyMMMd": "G y MMM d",
                 "GyMMMEd": "G y MMM d, E",
@@ -41,6 +46,7 @@
                 "MMMd": "MMM d",
                 "MMMEd": "MMM d, E",
                 "MMMMd": "MMMM d",
+                "MMMMW-count-other": "MMMM W 'нэдиэлэтэ'",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "y-MM",
@@ -51,7 +57,8 @@
                 "yMMMEd": "y MMM d, E",
                 "yMMMM": "y MMMM",
                 "yQQQ": "y QQQ",
-                "yQQQQ": "y QQQQ"
+                "yQQQQ": "y QQQQ",
+                "yw-count-other": "Y 'сыл' w 'нэдиэлэтэ'"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "y 'сыл' MMMM d 'күнэ', EEEE",
@@ -123,22 +130,22 @@
                         "С"
                     ],
                     "short": [
-                        "Бс",
-                        "Бн",
-                        "Оп",
-                        "Сэ",
-                        "Чп",
-                        "Бэ",
-                        "Сб"
+                        "бс",
+                        "бн",
+                        "оп",
+                        "сэ",
+                        "чп",
+                        "бэ",
+                        "сб"
                     ],
                     "long": [
-                        "Баскыһыанньа",
-                        "Бэнидиэлинньик",
-                        "Оптуорунньук",
-                        "Сэрэдэ",
-                        "Чэппиэр",
+                        "баскыһыанньа",
+                        "бэнидиэнньик",
+                        "оптуорунньук",
+                        "сэрэдэ",
+                        "чэппиэр",
                         "Бээтиҥсэ",
-                        "Субуота"
+                        "субуота"
                     ]
                 },
                 "eras": {
@@ -179,13 +186,13 @@
                     "short": [
                         "Тохс",
                         "Олун",
-                        "Клн_ттр",
-                        "Мус_уст",
-                        "Ыам_йн",
-                        "Бэс_йн",
-                        "От_йн",
-                        "Атрдь_йн",
-                        "Блҕн_йн",
+                        "Клн",
+                        "Мсу",
+                        "Ыам",
+                        "Бэс",
+                        "Отй",
+                        "Атр",
+                        "Блҕ",
                         "Алт",
                         "Сэт",
                         "Ахс"
@@ -202,7 +209,7 @@
                         "Балаҕан ыйын",
                         "Алтынньы",
                         "Сэтинньи",
-                        "Ахсынньы"
+                        "ахсынньы"
                     ]
                 },
                 "days": {
@@ -216,22 +223,22 @@
                         "С"
                     ],
                     "short": [
-                        "Бс",
-                        "Бн",
-                        "Оп",
-                        "Сэ",
-                        "Чп",
-                        "Бэ",
-                        "Сб"
+                        "бс",
+                        "бн",
+                        "оп",
+                        "сэ",
+                        "чп",
+                        "бэ",
+                        "сб"
                     ],
                     "long": [
-                        "Баскыһыанньа",
-                        "Бэнидиэлинньик",
-                        "Оптуорунньук",
-                        "Сэрэдэ",
-                        "Чэппиэр",
+                        "баскыһыанньа",
+                        "бэнидиэнньик",
+                        "оптуорунньук",
+                        "сэрэдэ",
+                        "чэппиэр",
                         "Бээтиҥсэ",
-                        "Субуота"
+                        "субуота"
                     ]
                 },
                 "eras": {
@@ -250,8 +257,8 @@
                     "long": [
                         "б. э. и.",
                         "б. э",
-                        "BCE",
-                        "CE"
+                        "биһиги ээрэбит иннинэ",
+                        "биһиги ээрэбит"
                     ]
                 },
                 "dayPeriods": {
@@ -271,8 +278,8 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{currency} {number}",
-                "negativePattern": "{minusSign}{currency} {number}"
+                "positivePattern": "{number} {currency}",
+                "negativePattern": "{minusSign}{number} {currency}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",
@@ -281,9 +288,9 @@
         },
         "symbols": {
             "latn": {
-                "decimal": ".",
-                "group": ",",
-                "nan": "NaN",
+                "decimal": ",",
+                "group": " ",
+                "nan": "чыыһыла буотах",
                 "plusSign": "+",
                 "minusSign": "-",
                 "percentSign": "%",
@@ -311,7 +318,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

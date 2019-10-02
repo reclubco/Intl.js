@@ -13,17 +13,22 @@
             "full": "{1}, {0}",
             "long": "{1}, {0}",
             "availableFormats": {
+                "Bh": "B h-ին",
+                "Bhm": "B h:mm-ին",
+                "Bhms": "B h:mm:ss",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E B h:mm-ին",
+                "EBhms": "E B h:mm:ss",
                 "Ed": "d, ccc",
                 "Ehm": "E, h:mm a",
                 "EHm": "E, HH:mm",
                 "Ehms": "E, h:mm:ss a",
                 "EHms": "E, HH:mm:ss",
-                "Gy": "G yթ.",
-                "GyMMM": "G yթ. LLL",
-                "GyMMMd": "d MMM, yթ.,",
-                "GyMMMEd": "G yթ. MMM d, E",
+                "Gy": "G y թ.",
+                "GyMMM": "G y թ. MMM",
+                "GyMMMd": "d MMM, y թ.",
+                "GyMMMEd": "G y թ. MMM d, E",
                 "h": "h a",
                 "H": "H",
                 "hm": "h:mm a",
@@ -41,29 +46,33 @@
                 "MMMd": "d MMM",
                 "MMMEd": "d MMM, E",
                 "MMMMd": "MMMM d",
+                "MMMMW-count-one": "MMMM W շաբ",
+                "MMMMW-count-other": "MMMM W շաբ",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "MM.y",
                 "yMd": "dd.MM.y",
-                "yMEd": "d.MM.yթ., E",
-                "yMMM": "yթ. LLL",
-                "yMMMd": "d MMM, yթ.",
-                "yMMMEd": "yթ. MMM d, E",
-                "yMMMM": "yթ․ MMMM",
-                "yQQQ": "y թ, QQQ",
-                "yQQQQ": "y թ, QQQQ"
+                "yMEd": "d.MM.y թ., E",
+                "yMMM": "y թ. LLL",
+                "yMMMd": "d MMM, y թ.",
+                "yMMMEd": "y թ. MMM d, E",
+                "yMMMM": "y թ․ LLLL",
+                "yQQQ": "y թ. QQQ",
+                "yQQQQ": "y թ. QQQQ",
+                "yw-count-one": "Y w շաբ",
+                "yw-count-other": "Y w շաբ"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "yթ. MMMM d, EEEE",
-                "yMMMMd": "dd MMMM, yթ.",
-                "yMMMd": "dd MMM, yթ.",
+                "yMMMMEEEEd": "y թ. MMMM d, EEEE",
+                "yMMMMd": "dd MMMM, y թ.",
+                "yMMMd": "dd MMM, y թ.",
                 "yMd": "dd.MM.yy"
             },
             "timeFormats": {
-                "hmmsszzzz": "H:mm:ss, zzzz",
-                "hmsz": "H:mm:ss, z",
-                "hms": "H:mm:ss",
-                "hm": "H:mm"
+                "hmmsszzzz": "HH:mm:ss zzzz",
+                "hmsz": "HH:mm:ss z",
+                "hms": "HH:mm:ss",
+                "hm": "HH:mm"
             }
         },
         "calendars": {
@@ -119,7 +128,7 @@
                         "Ե",
                         "Չ",
                         "Հ",
-                        "Ու",
+                        "Ո",
                         "Շ"
                     ],
                     "short": [
@@ -212,7 +221,7 @@
                         "Ե",
                         "Չ",
                         "Հ",
-                        "Ու",
+                        "Ո",
                         "Շ"
                     ],
                     "short": [
@@ -238,18 +247,18 @@
                     "narrow": [
                         "մ.թ.ա.",
                         "մ.թ.",
-                        "մ.թ.ա",
-                        "CE"
+                        "մ․թ․ա․",
+                        "մ․թ․"
                     ],
                     "short": [
                         "մ.թ.ա.",
                         "մ.թ.",
-                        "մ.թ.ա",
-                        "CE"
+                        "մ․թ․ա․",
+                        "մ․թ․"
                     ],
                     "long": [
-                        "մ.թ.ա.",
-                        "մ.թ.",
+                        "Քրիստոսից առաջ",
+                        "Քրիստոսից հետո",
                         "մեր թվարկությունից առաջ",
                         "մեր թվարկության"
                     ]
@@ -271,8 +280,8 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{currency} {number}",
-                "negativePattern": "{minusSign}{currency} {number}"
+                "positivePattern": "{number} {currency}",
+                "negativePattern": "{minusSign}{number} {currency}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",
@@ -282,8 +291,8 @@
         "symbols": {
             "latn": {
                 "decimal": ",",
-                "group": ".",
-                "nan": "NaN",
+                "group": " ",
+                "nan": "ՈչԹ",
                 "plusSign": "+",
                 "minusSign": "-",
                 "percentSign": "%",
@@ -312,7 +321,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

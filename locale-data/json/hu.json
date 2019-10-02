@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "B h",
+                "Bhm": "B h:mm",
+                "Bhms": "B h:mm:ss",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E B h:mm",
+                "EBhms": "E B h:mm:ss",
                 "Ed": "d., E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -30,9 +35,9 @@
                 "Hm": "H:mm",
                 "hms": "a h:mm:ss",
                 "Hms": "H:mm:ss",
-                "hmsv": "h:mm:ss a v",
+                "hmsv": "a h:mm:ss v",
                 "Hmsv": "HH:mm:ss v",
-                "hmv": "h:mm a v",
+                "hmv": "a h:mm v",
                 "Hmv": "HH:mm v",
                 "M": "L",
                 "Md": "M. d.",
@@ -41,6 +46,8 @@
                 "MMMd": "MMM d.",
                 "MMMEd": "MMM d., E",
                 "MMMMd": "MMMM d.",
+                "MMMMW-count-one": "MMMM W. 'hete'",
+                "MMMMW-count-other": "MMMM W. 'hete'",
                 "mmss": "mm:ss",
                 "ms": "mm:ss",
                 "y": "y.",
@@ -52,7 +59,9 @@
                 "yMMMEd": "y. MMM d., E",
                 "yMMMM": "y. MMMM",
                 "yQQQ": "y. QQQ",
-                "yQQQQ": "y. QQQQ"
+                "yQQQQ": "y. QQQQ",
+                "yw-count-one": "Y w. 'hete'",
+                "yw-count-other": "Y w. 'hete'"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "y. MMMM d., EEEE",
@@ -239,19 +248,19 @@
                     "narrow": [
                         "ie.",
                         "isz.",
-                        "BCE",
-                        "CE"
+                        "i.e.",
+                        "i.sz."
                     ],
                     "short": [
                         "i. e.",
                         "i. sz.",
-                        "BCE",
-                        "CE"
+                        "i.e.",
+                        "i.sz."
                     ],
                     "long": [
-                        "időszámításunk előtt",
+                        "Krisztus előtt",
                         "időszámításunk szerint",
-                        "i. e.",
+                        "időszámításunk előtt",
                         "i. sz."
                     ]
                 },
@@ -296,7 +305,8 @@
             "JPY": "¥",
             "XAF": "FCFA",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

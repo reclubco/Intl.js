@@ -13,38 +13,46 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "hh:mm B",
+                "Bhms": "hh:mm:ss B",
                 "d": "d",
                 "E": "E",
+                "EBhm": "E hh:mm B",
+                "EBhms": "E hh:mm:ss B",
                 "Ed": "E d.",
-                "Ehm": "E, h.mm a",
-                "EHm": "E, HH.mm",
-                "Ehms": "E, h.mm.ss a",
-                "EHms": "E, HH.mm.ss",
+                "Ehm": "E h:mm a",
+                "EHm": "E HH:mm",
+                "Ehms": "E h:mm:ss a",
+                "EHms": "E HH:mm:ss",
                 "Gy": "y. G",
                 "GyMMM": "MMM y. G",
                 "GyMMMd": "d. MMM y. G",
                 "GyMMMEd": "E, d. MMM y. G",
                 "h": "h a",
                 "H": "HH",
-                "hm": "hh.mm a",
-                "Hm": "HH.mm",
-                "hms": "hh.mm.ss a",
-                "Hms": "HH.mm.ss",
-                "hmsv": "h.mm.ss a v",
-                "Hmsv": "HH.mm.ss v",
-                "hmv": "h.mm a v",
-                "Hmv": "HH.mm v",
+                "hm": "h:mm a",
+                "Hm": "HH:mm",
+                "hms": "h:mm:ss a",
+                "Hms": "HH:mm:ss",
+                "hmsv": "h:mm:ss a v",
+                "Hmsv": "HH:mm:ss v",
+                "hmv": "h:mm a v",
+                "Hmv": "HH:mm v",
                 "M": "L",
-                "Md": "d/M",
+                "Md": "d.M.",
                 "MEd": "E, d.M.",
-                "MMdd": "MM-dd",
+                "MMdd": "dd.MM.",
                 "MMM": "LLL",
                 "MMMd": "d. MMM",
                 "MMMdd": "dd.MMM",
                 "MMMEd": "E d. MMM",
                 "MMMMd": "d. MMMM",
                 "MMMMEd": "E, d. MMMM",
-                "ms": "mm.ss",
+                "MMMMW-count-one": "W. 'sedmica' 'u' MMMM.",
+                "MMMMW-count-few": "W. 'sedmica' 'u' MMMM.",
+                "MMMMW-count-other": "W. 'sedmica' 'u' MMMM.",
+                "ms": "mm:ss",
                 "y": "y.",
                 "yM": "M.y.",
                 "yMd": "d.M.y.",
@@ -55,8 +63,11 @@
                 "yMMMd": "d. MMM y.",
                 "yMMMEd": "E, d. MMM y.",
                 "yMMMM": "MMMM y.",
-                "yQQQ": "QQQ. y",
-                "yQQQQ": "QQQQ. y"
+                "yQQQ": "QQQ y.",
+                "yQQQQ": "QQQQ y.",
+                "yw-count-one": "w. 'sedmica' 'u' Y.",
+                "yw-count-few": "w. 'sedmica' 'u' Y.",
+                "yw-count-other": "w. 'sedmica' 'u' Y."
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, dd. MMMM y.",
@@ -65,10 +76,10 @@
                 "yMd": "d.M.yy."
             },
             "timeFormats": {
-                "hmmsszzzz": "HH.mm.ss zzzz",
-                "hmsz": "HH.mm.ss z",
-                "hms": "HH.mm.ss",
-                "hm": "HH.mm"
+                "hmmsszzzz": "HH:mm:ss zzzz",
+                "hmsz": "HH:mm:ss z",
+                "hms": "HH:mm:ss",
+                "hm": "HH:mm"
             }
         },
         "calendars": {
@@ -255,8 +266,8 @@
                     "long": [
                         "pre nove ere",
                         "nove ere",
-                        "p. n. e.",
-                        "n. e."
+                        "BCE",
+                        "CE"
                     ]
                 },
                 "dayPeriods": {
@@ -297,9 +308,7 @@
         },
         "currencies": {
             "BAM": "KM",
-            "BGN": "[BGN]",
             "BRL": "R$",
-            "BYR": "[BYR]",
             "CAD": "CA$",
             "CNY": "CN¥",
             "EUR": "€",
@@ -314,7 +323,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

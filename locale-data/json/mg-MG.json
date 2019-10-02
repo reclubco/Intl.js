@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d, E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -44,6 +49,7 @@
                 "MMMEd": "E d MMM",
                 "MMMMd": "d MMMM",
                 "MMMMEd": "E d MMMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 "ms": "m:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -55,13 +61,14 @@
                 "yMMMEd": "E d MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-other": "'week' w 'of' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE d MMMM y",
                 "yMMMMd": "d MMMM y",
-                "yMMMd": "d MMM, y",
-                "yMd": "d/M/y"
+                "yMMMd": "y MMM d",
+                "yMd": "y-MM-dd"
             },
             "timeFormats": {
                 "hmmsszzzz": "HH:mm:ss zzzz",
@@ -275,8 +282,8 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{currency}{number}",
-                "negativePattern": "{minusSign}{currency}{number}"
+                "positivePattern": "{currency} {number}",
+                "negativePattern": "{minusSign}{currency} {number}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",
@@ -315,7 +322,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

@@ -13,8 +13,13 @@
             "full": "{1} 'kl'. {0}",
             "long": "{1} 'kl'. {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d.",
                 "Ehm": "E, h:mm a",
                 "EHm": "E, HH:mm",
@@ -31,9 +36,9 @@
                 "hms": "h:mm:ss a",
                 "Hms": "HH:mm:ss",
                 "hmsv": "h:mm:ss a v",
-                "Hmsv": "HH:mm:ss v",
+                "Hmsv": "v – HH:mm:ss",
                 "hmv": "h:mm a v",
-                "Hmv": "HH:mm v",
+                "Hmv": "v – HH:mm",
                 "M": "L",
                 "Md": "d.M.",
                 "MEd": "E, d.M.",
@@ -42,6 +47,8 @@
                 "MMMEd": "E, d. MMM",
                 "MMMMd": "d. MMMM",
                 "MMMMEd": "E, d. MMMM",
+                "MMMMW-count-one": "'viku' W 'í' MMMM",
+                "MMMMW-count-other": "'viku' W 'í' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M. y",
@@ -52,7 +59,9 @@
                 "yMMMEd": "E, d. MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'viku' w 'af' Y",
+                "yw-count-other": "'viku' w 'af' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d. MMMM y",
@@ -239,8 +248,8 @@
                     "narrow": [
                         "f.k.",
                         "e.k.",
-                        "f.l.t.",
-                        "l.t."
+                        "f.v.t.",
+                        "v.t."
                     ],
                     "short": [
                         "f.Kr.",
@@ -299,7 +308,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

@@ -13,8 +13,13 @@
             "full": "{1}, {0}",
             "long": "{1}, {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E, h:mm a",
                 "EHm": "E, H:mm",
@@ -49,6 +54,8 @@
                 "MMMEd": "E, d MMM",
                 "MMMMd": "d 'de' MMMM",
                 "MMMMEd": "E, d 'de' MMMM",
+                "MMMMW-count-one": "'semana' W 'de' MMMM",
+                "MMMMW-count-other": "'semana' W 'de' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -62,7 +69,9 @@
                 "yMMMMd": "d 'de' MMMM 'de' y",
                 "yMMMMEd": "EEE, d 'de' MMMM 'de' y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ 'de' y"
+                "yQQQQ": "QQQQ 'de' y",
+                "yw-count-one": "'semana' w 'de' Y",
+                "yw-count-other": "'semana' w 'de' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d 'de' MMMM 'de' y",
@@ -167,8 +176,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "a. m.",
-                    "pm": "p. m."
+                    "am": "a. m.",
+                    "pm": "p. m."
                 }
             },
             "gregory": {
@@ -266,8 +275,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "a. m.",
-                    "pm": "p. m."
+                    "am": "a. m.",
+                    "pm": "p. m."
                 }
             }
         }
@@ -306,10 +315,11 @@
             "ESP": "₧",
             "EUR": "€",
             "THB": "฿",
-            "USD": "$",
+            "USD": "US$",
             "VND": "₫",
             "XAF": "FCFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

@@ -13,8 +13,13 @@
             "full": "{0} {1}",
             "long": "{0} {1}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E, 'ngày' d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -23,7 +28,7 @@
                 "Gy": "y G",
                 "GyMMM": "MMM y G",
                 "GyMMMd": "dd MMM, y G",
-                "GyMMMEd": "E, d MMM, y G",
+                "GyMMMEd": "E, dd/MM/y G",
                 "h": "h a",
                 "H": "HH",
                 "hm": "h:mm a",
@@ -43,6 +48,7 @@
                 "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
                 "MMMMEd": "E, d MMMM",
+                "MMMMW-count-other": "'tuần' W 'của' 'tháng' M",
                 "mmss": "mm:ss",
                 "ms": "mm:ss",
                 "y": "y",
@@ -55,11 +61,12 @@
                 "yMMMEd": "E, d MMM, y",
                 "yMMMM": "MMMM 'năm' y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ 'năm' y"
+                "yQQQQ": "QQQQ 'năm' y",
+                "yw-count-other": "'tuần' w 'của' 'năm' Y"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE, 'ngày' dd MMMM 'năm' y",
-                "yMMMMd": "'Ngày' dd 'tháng' MM 'năm' y",
+                "yMMMMEEEEd": "EEEE, d MMMM, y",
+                "yMMMMd": "d MMMM, y",
                 "yMMMd": "d MMM, y",
                 "yMd": "dd/MM/y"
             },
@@ -242,20 +249,20 @@
                     "narrow": [
                         "tr. CN",
                         "sau CN",
-                        "BCE",
-                        "CE"
+                        "trước CN",
+                        "CN"
                     ],
                     "short": [
-                        "tr. CN",
+                        "Trước CN",
                         "sau CN",
-                        "BCE",
-                        "CE"
+                        "trước CN",
+                        "CN"
                     ],
                     "long": [
-                        "tr. CN",
+                        "Trước CN",
                         "sau CN",
-                        "BCE",
-                        "CE"
+                        "trước CN",
+                        "CN"
                     ]
                 },
                 "dayPeriods": {
@@ -275,8 +282,8 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{currency} {number}",
-                "negativePattern": "{minusSign}{currency} {number}"
+                "positivePattern": "{number} {currency}",
+                "negativePattern": "{minusSign}{number} {currency}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",

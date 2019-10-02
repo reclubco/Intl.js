@@ -13,17 +13,22 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d, E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
                 "Ehms": "E h:mm:ss a",
                 "EHms": "E HH:mm:ss",
-                "Gy": "G y",
-                "GyMMM": "G y MMM",
-                "GyMMMd": "G y MMM d",
-                "GyMMMEd": "G y MMM d, E",
+                "Gy": "y G",
+                "GyMMM": "MMM y G",
+                "GyMMMd": "MMM d, y G",
+                "GyMMMEd": "E, MMM d, y G",
                 "h": "h a",
                 "H": "HH",
                 "hm": "h:mm a",
@@ -42,17 +47,21 @@
                 "MMMEd": "E, MMM d",
                 "MMMMd": "MMMM d",
                 "MMMMEd": "E, MMMM d",
+                "MMMMW-count-one": "'toddobaadka' W 'ee' MMMM",
+                "MMMMW-count-other": "'toddobaadka' W 'ee' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
-                "yMd": "y-MM-dd",
+                "yMd": "M/d/y",
                 "yMEd": "E, M/d/y",
                 "yMMM": "MMM y",
-                "yMMMd": "y MMM d",
+                "yMMMd": "MMM d, y",
                 "yMMMEd": "E, MMM d, y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'toddobaadka' w 'ee' Y",
+                "yw-count-other": "'toddobaadka' w 'ee' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, MMMM dd, y",
@@ -117,28 +126,28 @@
                     "narrow": [
                         "A",
                         "I",
-                        "T",
+                        "S",
                         "A",
-                        "K",
+                        "Kh",
                         "J",
                         "S"
                     ],
                     "short": [
                         "Axd",
                         "Isn",
-                        "Tal",
-                        "Arb",
-                        "Kha",
-                        "Jim",
-                        "Sab"
+                        "Slsa",
+                        "Arbc",
+                        "Khms",
+                        "Jmc",
+                        "Sbti"
                     ],
                     "long": [
                         "Axad",
                         "Isniin",
-                        "Talaado",
-                        "Arbaco",
+                        "Salaasa",
+                        "Arbaca",
                         "Khamiis",
-                        "Jimco",
+                        "Jimce",
                         "Sabti"
                     ]
                 },
@@ -157,39 +166,39 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "sn.",
-                    "pm": "gn."
+                    "am": "GH",
+                    "pm": "GD"
                 }
             },
             "gregory": {
                 "months": {
                     "narrow": [
-                        "1",
-                        "2",
-                        "3",
-                        "4",
-                        "5",
-                        "6",
-                        "7",
-                        "8",
-                        "9",
-                        "10",
-                        "11",
-                        "12"
+                        "J",
+                        "F",
+                        "M",
+                        "A",
+                        "M",
+                        "J",
+                        "L",
+                        "O",
+                        "S",
+                        "O",
+                        "N",
+                        "D"
                     ],
                     "short": [
-                        "Kob",
-                        "Lab",
-                        "Sad",
-                        "Afr",
-                        "Sha",
-                        "Lix",
-                        "Tod",
-                        "Sid",
-                        "Sag",
-                        "Tob",
-                        "KIT",
-                        "LIT"
+                        "Jan",
+                        "Feb",
+                        "Mar",
+                        "Abr",
+                        "May",
+                        "Jun",
+                        "Lul",
+                        "Ogs",
+                        "Seb",
+                        "Okt",
+                        "Nof",
+                        "Dis"
                     ],
                     "long": [
                         "Bisha Koobaad",
@@ -210,54 +219,54 @@
                     "narrow": [
                         "A",
                         "I",
-                        "T",
+                        "S",
                         "A",
-                        "K",
+                        "Kh",
                         "J",
                         "S"
                     ],
                     "short": [
                         "Axd",
                         "Isn",
-                        "Tal",
-                        "Arb",
-                        "Kha",
-                        "Jim",
-                        "Sab"
+                        "Slsa",
+                        "Arbc",
+                        "Khms",
+                        "Jmc",
+                        "Sbti"
                     ],
                     "long": [
                         "Axad",
                         "Isniin",
-                        "Talaado",
-                        "Arbaco",
+                        "Salaasa",
+                        "Arbaca",
                         "Khamiis",
-                        "Jimco",
+                        "Jimce",
                         "Sabti"
                     ]
                 },
                 "eras": {
                     "narrow": [
-                        "CK",
+                        "CH",
                         "CD",
-                        "BCE",
-                        "CE"
+                        "KTM",
+                        "TM"
                     ],
                     "short": [
-                        "CK",
+                        "CH",
                         "CD",
-                        "BCE",
-                        "CE"
+                        "KTM",
+                        "TM"
                     ],
                     "long": [
-                        "Ciise ka hor (CS)",
-                        "Ciise ka dib (CS)",
-                        "BCE",
-                        "CE"
+                        "Ciise Hortii",
+                        "Ciise Dabadii",
+                        "Ka Hor Taariikhda Miilaadiga",
+                        "Taariikhda Miilaadiga"
                     ]
                 },
                 "dayPeriods": {
-                    "am": "sn.",
-                    "pm": "gn."
+                    "am": "GH",
+                    "pm": "GD"
                 }
             }
         }
@@ -284,7 +293,7 @@
             "latn": {
                 "decimal": ".",
                 "group": ",",
-                "nan": "NaN",
+                "nan": "MaL",
                 "plusSign": "+",
                 "minusSign": "-",
                 "percentSign": "%",
@@ -293,6 +302,7 @@
         },
         "currencies": {
             "AUD": "A$",
+            "BBD": "DBB",
             "BRL": "R$",
             "CAD": "CA$",
             "CNY": "CN¥",
@@ -312,7 +322,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

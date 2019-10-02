@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d.",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d.",
                 "Ehm": "E h:mm a",
                 "EHm": "E H:mm",
@@ -44,6 +49,10 @@
                 "MMMEd": "E d. M.",
                 "MMMMd": "d. MMMM",
                 "MMMMEd": "E d. MMMM",
+                "MMMMW-count-one": "W. 'týden' MMMM",
+                "MMMMW-count-few": "W. 'týden' MMMM",
+                "MMMMW-count-many": "W. 'týden' MMMM",
+                "MMMMW-count-other": "W. 'týden' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -56,7 +65,11 @@
                 "yMMMMd": "d. MMMM y",
                 "yMMMMEd": "E d. MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "w. 'týden' 'roku' Y",
+                "yw-count-few": "w. 'týden' 'roku' Y",
+                "yw-count-many": "w. 'týden' 'roku' Y",
+                "yw-count-other": "w. 'týden' 'roku' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE d. MMMM y",
@@ -253,8 +266,8 @@
                         "CE"
                     ],
                     "long": [
-                        "př. n. l.",
-                        "n. l.",
+                        "před naším letopočtem",
+                        "našeho letopočtu",
                         "BCE",
                         "CE"
                     ]

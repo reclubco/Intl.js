@@ -13,8 +13,13 @@
             "full": "{1}, {0}",
             "long": "{1}, {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d.",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d.",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -23,7 +28,7 @@
                 "Gy": "y G",
                 "GyMMM": "LLLL y G",
                 "GyMMMd": "d. M. y G",
-                "GyMMMEd": "E, d. M. y G",
+                "GyMMMEd": "E d. M. y G",
                 "GyMMMMd": "d. M. y G",
                 "h": "h a",
                 "H": "H",
@@ -43,6 +48,10 @@
                 "MMMEd": "E d. M.",
                 "MMMMd": "d. MMMM",
                 "MMMMEd": "E d. MMMM",
+                "MMMMW-count-one": "W. 'týždeň' 'v' MMMM",
+                "MMMMW-count-few": "W. 'týždeň' 'v' MMMM",
+                "MMMMW-count-many": "W. 'týždeň' 'v' MMMM",
+                "MMMMW-count-other": "W. 'týždeň' 'v' MMMM",
                 "mmss": "mm:ss",
                 "ms": "mm:ss",
                 "y": "y",
@@ -55,13 +64,17 @@
                 "yMMMM": "LLLL y",
                 "yMMMMd": "d. MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "w. 'týždeň' 'roka' Y",
+                "yw-count-few": "w. 'týždeň' 'roka' Y",
+                "yw-count-many": "w. 'týždeň' 'roka' Y",
+                "yw-count-other": "w. 'týždeň' 'roka' Y"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE, d. MMMM y",
+                "yMMMMEEEEd": "EEEE d. MMMM y",
                 "yMMMMd": "d. MMMM y",
                 "yMMMd": "d. M. y",
-                "yMd": "d.M.yy"
+                "yMd": "d. M. y"
             },
             "timeFormats": {
                 "hmmsszzzz": "H:mm:ss zzzz",

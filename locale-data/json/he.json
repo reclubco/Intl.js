@@ -13,8 +13,13 @@
             "full": "{1} בשעה {0}",
             "long": "{1} בשעה {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E ה-d",
                 "Ehm": "E h:mm a",
                 "EHm": "E H:mm",
@@ -41,6 +46,10 @@
                 "MMMd": "d בMMM",
                 "MMMEd": "E, d בMMM",
                 "MMMMd": "d בMMMM",
+                "MMMMW-count-one": "שבוע W בMMMM",
+                "MMMMW-count-two": "שבוע W בMMMM",
+                "MMMMW-count-many": "שבוע W בMMMM",
+                "MMMMW-count-other": "שבוע W בMMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M.y",
@@ -52,7 +61,11 @@
                 "yMMMEd": "E, d בMMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "שבוע w בשנת Y",
+                "yw-count-two": "שבוע w בשנת Y",
+                "yw-count-many": "שבוע w בשנת Y",
+                "yw-count-other": "שבוע w בשנת Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d בMMMM y",
@@ -272,8 +285,8 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{number} {currency}",
-                "negativePattern": "{minusSign}{number} {currency}"
+                "positivePattern": "‏{number} {currency}",
+                "negativePattern": "‏{minusSign}{number} {currency}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",
@@ -295,14 +308,14 @@
             "AUD": "A$",
             "BRL": "R$",
             "CAD": "CA$",
-            "CNY": "CN¥",
+            "CNY": "‎CN¥‎",
             "EUR": "€",
             "GBP": "£",
             "HKD": "HK$",
             "ILP": "ל״י",
             "ILS": "₪",
             "INR": "₹",
-            "JPY": "JP¥",
+            "JPY": "¥",
             "KRW": "₩",
             "MXN": "MX$",
             "NZD": "NZ$",
@@ -313,7 +326,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

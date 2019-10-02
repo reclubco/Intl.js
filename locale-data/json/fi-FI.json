@@ -13,8 +13,13 @@
             "full": "{1} 'klo' {0}",
             "long": "{1} 'klo' {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h.mm B",
+                "Bhms": "h.mm.ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h.mm B",
+                "EBhms": "E h.mm.ss B",
                 "Ed": "E d.",
                 "Ehm": "E h.mm a",
                 "EHm": "E H.mm",
@@ -24,6 +29,8 @@
                 "GyMMM": "LLL y G",
                 "GyMMMd": "d. MMM y G",
                 "GyMMMEd": "E d. MMM y G",
+                "GyMMMMd": "d. MMMM y G",
+                "GyMMMMEd": "E d. MMMM y G",
                 "h": "h a",
                 "H": "H",
                 "hm": "h.mm a",
@@ -41,6 +48,9 @@
                 "MMMd": "d. MMM",
                 "MMMEd": "ccc d. MMM",
                 "MMMMd": "d. MMMM",
+                "MMMMEd": "ccc d. MMMM",
+                "MMMMW-count-one": "LLLL'n' W. 'viikko'",
+                "MMMMW-count-other": "LLLL'n' W. 'viikko'",
                 "ms": "m.ss",
                 "y": "y",
                 "yM": "L.y",
@@ -52,8 +62,12 @@
                 "yMMMEd": "E d. MMM y",
                 "yMMMM": "LLLL y",
                 "yMMMMccccd": "cccc d. MMMM y",
+                "yMMMMd": "d. MMMM y",
+                "yMMMMEd": "E d. MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'vuoden' Y 'viikko' w",
+                "yw-count-other": "'vuoden' Y 'viikko' w"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "cccc d. MMMM y",
@@ -179,18 +193,18 @@
                         "J"
                     ],
                     "short": [
-                        "tammikuuta",
-                        "helmikuuta",
-                        "maaliskuuta",
-                        "huhtikuuta",
-                        "toukokuuta",
-                        "kesäkuuta",
-                        "heinäkuuta",
-                        "elokuuta",
-                        "syyskuuta",
-                        "lokakuuta",
-                        "marraskuuta",
-                        "joulukuuta"
+                        "tammik.",
+                        "helmik.",
+                        "maalisk.",
+                        "huhtik.",
+                        "toukok.",
+                        "kesäk.",
+                        "heinäk.",
+                        "elok.",
+                        "syysk.",
+                        "lokak.",
+                        "marrask.",
+                        "jouluk."
                     ],
                     "long": [
                         "tammikuuta",
@@ -238,8 +252,8 @@
                 },
                 "eras": {
                     "narrow": [
-                        "eK",
-                        "jK",
+                        "eKr",
+                        "jKr",
                         "eaa",
                         "jaa"
                     ],

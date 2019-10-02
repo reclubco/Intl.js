@@ -13,13 +13,18 @@
             "full": "{1} 'at' {0}",
             "long": "{1} 'at' {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E, h:mm B",
+                "EBhms": "E, h:mm:ss B",
                 "Ed": "E d",
-                "Ehm": "E h:mm a",
-                "EHm": "E HH:mm",
-                "Ehms": "E h:mm:ss a",
-                "EHms": "E HH:mm:ss",
+                "Ehm": "E, h:mm a",
+                "EHm": "E, HH:mm",
+                "Ehms": "E, h:mm:ss a",
+                "EHms": "E, HH:mm:ss",
                 "Gy": "y G",
                 "GyMMM": "MMM y G",
                 "GyMMMd": "d MMM y G",
@@ -42,20 +47,24 @@
                 "MMMd": "d MMM",
                 "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
+                "MMMMW-count-one": "'week' W 'of' MMMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "MM/y",
                 "yMd": "d/M/y",
-                "yMEd": "E d/M/y",
+                "yMEd": "E, d/M/y",
                 "yMMM": "MMM y",
                 "yMMMd": "d MMM y",
-                "yMMMEd": "E d MMM, y",
+                "yMMMEd": "E, d MMM, y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE d MMMM y",
+                "yMMMMEEEEd": "EEEE, d MMMM, y",
                 "yMMMMd": "d MMMM y",
                 "yMMMd": "dd-MMM-y",
                 "yMd": "dd/MM/yy"
@@ -157,8 +166,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "AM",
-                    "pm": "PM"
+                    "am": "am",
+                    "pm": "pm"
                 }
             },
             "gregory": {
@@ -256,8 +265,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "AM",
-                    "pm": "PM"
+                    "am": "am",
+                    "pm": "pm"
                 }
             }
         }
@@ -312,7 +321,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

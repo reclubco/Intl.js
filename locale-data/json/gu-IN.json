@@ -10,11 +10,16 @@
         "formats": {
             "short": "{1} {0}",
             "medium": "{1} {0}",
-            "full": "{1} {0}",
-            "long": "{1} {0}",
+            "full": "{1} એ {0} વાગ્યે",
+            "long": "{1} એ {0} વાગ્યે",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -42,6 +47,8 @@
                 "MMMd": "d MMM",
                 "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
+                "MMMMW-count-one": "MMMM ના W અઠવાડિયા",
+                "MMMMW-count-other": "MMMM ના W અઠવાડિયા",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -53,7 +60,9 @@
                 "yMMMEd": "E, d MMM, y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "y QQQ",
-                "yQQQQ": "y QQQQ"
+                "yQQQQ": "y QQQQ",
+                "yw-count-one": "Y ના w અઠવાડિયા",
+                "yw-count-other": "Y ના w અઠવાડિયા"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d MMMM, y",
@@ -323,7 +332,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

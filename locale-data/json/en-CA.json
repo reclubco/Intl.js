@@ -13,8 +13,13 @@
             "full": "{1} 'at' {0}",
             "long": "{1} 'at' {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E, h:mm B",
+                "EBhms": "E, h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -45,6 +50,8 @@
                 "MMMd": "MMM d",
                 "MMMEd": "E, MMM d",
                 "MMMMd": "MMMM d",
+                "MMMMW-count-one": "'week' W 'of' MMMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "y-MM",
@@ -58,7 +65,9 @@
                 "yMMMEd": "E, MMM d, y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, MMMM d, y",
@@ -130,13 +139,13 @@
                         "S"
                     ],
                     "short": [
-                        "Sun",
-                        "Mon",
-                        "Tue",
-                        "Wed",
-                        "Thu",
-                        "Fri",
-                        "Sat"
+                        "Sun.",
+                        "Mon.",
+                        "Tue.",
+                        "Wed.",
+                        "Thu.",
+                        "Fri.",
+                        "Sat."
                     ],
                     "long": [
                         "Sunday",
@@ -163,8 +172,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "AM",
-                    "pm": "PM"
+                    "am": "a.m.",
+                    "pm": "p.m."
                 }
             },
             "gregory": {
@@ -184,18 +193,18 @@
                         "D"
                     ],
                     "short": [
-                        "Jan",
-                        "Feb",
-                        "Mar",
-                        "Apr",
+                        "Jan.",
+                        "Feb.",
+                        "Mar.",
+                        "Apr.",
                         "May",
-                        "Jun",
-                        "Jul",
-                        "Aug",
-                        "Sep",
-                        "Oct",
-                        "Nov",
-                        "Dec"
+                        "Jun.",
+                        "Jul.",
+                        "Aug.",
+                        "Sep.",
+                        "Oct.",
+                        "Nov.",
+                        "Dec."
                     ],
                     "long": [
                         "January",
@@ -223,13 +232,13 @@
                         "S"
                     ],
                     "short": [
-                        "Sun",
-                        "Mon",
-                        "Tue",
-                        "Wed",
-                        "Thu",
-                        "Fri",
-                        "Sat"
+                        "Sun.",
+                        "Mon.",
+                        "Tue.",
+                        "Wed.",
+                        "Thu.",
+                        "Fri.",
+                        "Sat."
                     ],
                     "long": [
                         "Sunday",
@@ -262,8 +271,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "AM",
-                    "pm": "PM"
+                    "am": "a.m.",
+                    "pm": "p.m."
                 }
             }
         }
@@ -317,7 +326,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

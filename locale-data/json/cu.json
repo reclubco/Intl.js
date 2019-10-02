@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d, E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -41,6 +46,7 @@
                 "MMMd": "MMM d",
                 "MMMEd": "MMM d, E",
                 "MMMMd": "MMMM d",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "y-MM",
@@ -51,7 +57,8 @@
                 "yMMMEd": "y MMM d, E",
                 "yMMMM": "y MMMM",
                 "yQQQ": "y QQQ",
-                "yQQQQ": "y QQQQ"
+                "yQQQQ": "y QQQQ",
+                "yw-count-other": "'week' w 'of' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "y MMMM d, EEEE",
@@ -311,7 +318,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

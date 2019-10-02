@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm น.",
@@ -33,7 +38,7 @@
                 "Hms": "HH:mm:ss",
                 "hmsv": "h:mm:ss a v",
                 "Hmsv": "HH:mm:ss v",
-                "hmv": "h:mm a v",
+                "hmv": "h:mm น. a v",
                 "Hmv": "HH:mm v",
                 "M": "L",
                 "Md": "d/M",
@@ -45,6 +50,7 @@
                 "MMMMd": "d MMMM",
                 "MMMMEd": "E d MMMM",
                 "MMMMEEEEd": "EEEEที่ d MMMM",
+                "MMMMW-count-other": "สัปดาห์ที่ W ของเดือนMMMM",
                 "mmss": "mm:ss",
                 "ms": "mm:ss",
                 "y": "y",
@@ -60,7 +66,8 @@
                 "yMMMMEd": "E d MMMM G y",
                 "yMMMMEEEEd": "EEEEที่ d MMMM G y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ G y"
+                "yQQQQ": "QQQQ G y",
+                "yw-count-other": "สัปดาห์ที่ w ของปี Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEEที่ d MMMM G y",
@@ -251,13 +258,13 @@
                         "ส.ศ."
                     ],
                     "short": [
-                        "ปีก่อน ค.ศ.",
+                        "ก่อน ค.ศ.",
                         "ค.ศ.",
                         "ก.ส.ศ.",
                         "ส.ศ."
                     ],
                     "long": [
-                        "ปีก่อนคริสต์ศักราช",
+                        "ปีก่อนคริสตกาล",
                         "คริสต์ศักราช",
                         "ก่อนสามัญศักราช",
                         "สามัญศักราช"
@@ -322,6 +329,7 @@
             "KRW": "₩",
             "MXN": "MX$",
             "NZD": "NZ$",
+            "THB": "฿",
             "TWD": "NT$",
             "USD": "US$",
             "VND": "₫",

@@ -13,8 +13,13 @@
             "full": "{1} - {0}",
             "long": "{1} - {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -37,11 +42,13 @@
                 "M": "L",
                 "Md": "d/M",
                 "MEd": "E, d/M",
-                "MMM": "LLL",
+                "MMM": "MMM",
                 "MMMd": "d MMM",
                 "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
                 "MMMMEd": "E, d MMMM",
+                "MMMMW-count-one": "εβδομάδα W του MMMM",
+                "MMMMW-count-other": "εβδομάδα W του MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -50,9 +57,11 @@
                 "yMMM": "MMM y",
                 "yMMMd": "d MMM y",
                 "yMMMEd": "E, d MMM y",
-                "yMMMM": "MMMM y",
+                "yMMMM": "LLLL y",
                 "yQQQ": "y QQQ",
-                "yQQQQ": "y QQQQ"
+                "yQQQQ": "y QQQQ",
+                "yw-count-one": "εβδομάδα w του Y",
+                "yw-count-other": "εβδομάδα w του Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d MMMM y",
@@ -313,7 +322,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

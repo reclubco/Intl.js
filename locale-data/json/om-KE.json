@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d, E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -43,6 +48,8 @@
                 "MMMEd": "MMM d, E",
                 "MMMMd": "MMMM d",
                 "MMMMdd": "dd MMMM",
+                "MMMMW-count-one": "'week' W 'of' MMMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "y-MM",
@@ -54,7 +61,9 @@
                 "yMMMEd": "y MMM d, E",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "y QQQQ"
+                "yQQQQ": "y QQQQ",
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, MMMM d, y",
@@ -117,12 +126,12 @@
                 },
                 "days": {
                     "narrow": [
-                        "S",
-                        "M",
-                        "T",
+                        "D",
                         "W",
-                        "T",
-                        "F",
+                        "Q",
+                        "R",
+                        "K",
+                        "J",
                         "S"
                     ],
                     "short": [
@@ -210,12 +219,12 @@
                 },
                 "days": {
                     "narrow": [
-                        "S",
-                        "M",
-                        "T",
+                        "D",
                         "W",
-                        "T",
-                        "F",
+                        "Q",
+                        "R",
+                        "K",
+                        "J",
                         "S"
                     ],
                     "short": [
@@ -240,19 +249,19 @@
                 "eras": {
                     "narrow": [
                         "KD",
-                        "KB",
+                        "CE",
                         "BCE",
-                        "CE"
+                        "KB"
                     ],
                     "short": [
                         "KD",
-                        "KB",
+                        "CE",
                         "BCE",
-                        "CE"
+                        "KB"
                     ],
                     "long": [
-                        "KD",
-                        "KB",
+                        "Dheengadda Jeesu",
+                        "CE",
                         "BCE",
                         "CE"
                     ]
@@ -315,7 +324,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d, E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -41,6 +46,8 @@
                 "MMMd": "d MMM",
                 "MMMEd": "E, d MMM",
                 "MMMMd": "MMMM d",
+                "MMMMW-count-one": "MMMM ਦਾ W ਹਫ਼ਤਾ",
+                "MMMMW-count-other": "MMMM ਦਾ W ਹਫ਼ਤਾ",
                 "mmss": "mm:ss",
                 "ms": "mm:ss",
                 "y": "y",
@@ -50,9 +57,11 @@
                 "yMMM": "MMM y",
                 "yMMMd": "d MMM y",
                 "yMMMEd": "E, d MMM y",
-                "yMMMM": "y MMMM",
+                "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "Y ਦਾ w ਹਫ਼ਤਾ",
+                "yw-count-other": "Y ਦਾ w ਹਫ਼ਤਾ"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d MMMM y",
@@ -237,10 +246,10 @@
                 },
                 "eras": {
                     "narrow": [
-                        "ਈ. ਪੂ.",
+                        "ਈ.ਪੂ.",
                         "ਸੰਨ",
-                        "ਈ. ਪੂ. ਸੰ.",
-                        "ਈ. ਸੰ."
+                        "ਈ.ਪੂ.ਸੰ.",
+                        "ਈ.ਸੰ."
                     ],
                     "short": [
                         "ਈ. ਪੂ.",

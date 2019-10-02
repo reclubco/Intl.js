@@ -8,22 +8,27 @@
         "hourNo0": true,
         "hour12": true,
         "formats": {
-            "short": "{1} {0}",
-            "medium": "{1} {0}",
-            "full": "{1} {0}",
-            "long": "{1} {0}",
+            "short": "{1}, {0}",
+            "medium": "{1}, {0}",
+            "full": "{0} ଠାରେ {1}",
+            "long": "{0} ଠାରେ {1}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
-                "Ed": "d, E",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
+                "Ed": "d E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
                 "Ehms": "E h:mm:ss a",
                 "EHms": "E HH:mm:ss",
-                "Gy": "G y",
-                "GyMMM": "G y MMM",
-                "GyMMMd": "G y MMM d",
-                "GyMMMEd": "G y MMM d, E",
+                "Gy": "y G",
+                "GyMMM": "MMM y G",
+                "GyMMMd": "MMM d, y G",
+                "GyMMMEd": "E, MMM d, y G",
                 "h": "h a",
                 "H": "HH",
                 "hm": "h:mm a",
@@ -35,31 +40,35 @@
                 "hmv": "h:mm a v",
                 "Hmv": "HH:mm v",
                 "M": "L",
-                "Md": "MM-dd",
-                "MEd": "MM-dd, E",
+                "Md": "M/d",
+                "MEd": "E, M/d",
                 "MMdd": "dd-MM",
                 "MMM": "LLL",
                 "MMMd": "MMM d",
-                "MMMEd": "MMM d, E",
+                "MMMEd": "E, MMM d",
                 "MMMMd": "MMMM d",
+                "MMMMW-count-one": "MMMM ର ସପ୍ତାହ W",
+                "MMMMW-count-other": "MMMM ର ସପ୍ତାହ W",
                 "ms": "mm:ss",
                 "y": "y",
-                "yM": "y-MM",
-                "yMd": "y-MM-dd",
-                "yMEd": "y-MM-dd, E",
+                "yM": "M/y",
+                "yMd": "M/d/y",
+                "yMEd": "E, M/d/y",
                 "yMM": "MM-y",
-                "yMMM": "y MMM",
-                "yMMMd": "y MMM d",
-                "yMMMEd": "y MMM d, E",
+                "yMMM": "MMM y",
+                "yMMMd": "MMM d, y",
+                "yMMMEd": "E, MMM d, y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "y QQQQ"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "Y ର ସପ୍ତାହ w",
+                "yw-count-other": "Y ର ସପ୍ତାହ w"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE, d MMMM y",
-                "yMMMMd": "d MMMM y",
-                "yMMMd": "d MMM y",
-                "yMd": "d-M-yy"
+                "yMMMMEEEEd": "EEEE, MMMM d, y",
+                "yMMMMd": "MMMM d, y",
+                "yMMMd": "MMM d, y",
+                "yMd": "M/d/yy"
             },
             "timeFormats": {
                 "hmmsszzzz": "h:mm:ss a zzzz",
@@ -158,8 +167,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "am",
-                    "pm": "pm"
+                    "am": "AM",
+                    "pm": "PM"
                 }
             },
             "gregory": {
@@ -238,27 +247,27 @@
                 },
                 "eras": {
                     "narrow": [
-                        "BCE",
-                        "CE",
+                        "BC",
+                        "AD",
                         "BCE",
                         "CE"
                     ],
                     "short": [
-                        "BCE",
-                        "CE",
+                        "BC",
+                        "AD",
                         "BCE",
                         "CE"
                     ],
                     "long": [
-                        "BCE",
-                        "CE",
-                        "BCE",
-                        "CE"
+                        "ଖ୍ରୀଷ୍ଟପୂର୍ବ",
+                        "ଖ୍ରୀଷ୍ଟାବ୍ଦ",
+                        "ସାମ୍ପ୍ରତିକ ଯୁଗ ପୂର୍ବରୁ",
+                        "ସାମ୍ପ୍ରତିକ ଯୁଗ"
                     ]
                 },
                 "dayPeriods": {
-                    "am": "am",
-                    "pm": "pm"
+                    "am": "AM",
+                    "pm": "PM"
                 }
             }
         }
@@ -273,14 +282,13 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{currency} {number}",
-                "negativePattern": "{minusSign}{currency} {number}"
+                "positivePattern": "{currency}{number}",
+                "negativePattern": "{minusSign}{currency}{number}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",
                 "negativePattern": "{minusSign}{number}{percentSign}"
-            },
-            "secondaryGroupSize": 2
+            }
         },
         "symbols": {
             "latn": {
@@ -312,17 +320,18 @@
             "HKD": "HK$",
             "ILS": "₪",
             "INR": "₹",
-            "JPY": "JP¥",
+            "JPY": "¥",
             "KRW": "₩",
             "MXN": "MX$",
             "NZD": "NZ$",
             "TWD": "NT$",
-            "USD": "US$",
+            "USD": "$",
             "VND": "₫",
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

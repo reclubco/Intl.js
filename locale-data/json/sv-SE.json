@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -44,6 +49,8 @@
                 "MMMEd": "E d MMM",
                 "MMMMd": "d MMMM",
                 "MMMMEd": "E d MMMM",
+                "MMMMW-count-one": "'vecka' W 'i' MMMM",
+                "MMMMW-count-other": "'vecka' W 'i' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "y-MM",
@@ -55,7 +62,9 @@
                 "yMMMEd": "E d MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'vecka' w, Y",
+                "yw-count-other": "'vecka' w, Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE d MMMM y",
@@ -242,8 +251,8 @@
                     "narrow": [
                         "f.Kr.",
                         "e.Kr.",
-                        "fvt",
-                        "vt"
+                        "f.v.t.",
+                        "v.t."
                     ],
                     "short": [
                         "f.Kr.",
@@ -287,7 +296,7 @@
             "latn": {
                 "decimal": ",",
                 "group": " ",
-                "nan": "¤¤¤",
+                "nan": "NaN",
                 "plusSign": "+",
                 "minusSign": "−",
                 "percentSign": "%",
@@ -306,6 +315,7 @@
             "EEK": "Ekr",
             "EGP": "EG£",
             "EUR": "€",
+            "IEP": "IE£",
             "ILS": "₪",
             "ISK": "Ikr",
             "JMD": "JM$",
@@ -316,7 +326,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

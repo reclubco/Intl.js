@@ -13,8 +13,13 @@
             "full": "{1} रोजी {0}",
             "long": "{1} रोजी {0}",
             "availableFormats": {
+                "Bh": "B h",
+                "Bhm": "B h:mm",
+                "Bhms": "B h:mm:ss",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E B h:mm",
+                "EBhms": "E B h:mm:ss",
                 "Ed": "d E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -42,6 +47,8 @@
                 "MMMd": "d MMM",
                 "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
+                "MMMMW-count-one": "MMMM चा W रा आठवडा",
+                "MMMMW-count-other": "MMMM चा W रा आठवडा",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -53,7 +60,9 @@
                 "yMMMEd": "E, d, MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "Y चा w रा आठवडा",
+                "yw-count-other": "Y चा w रा आठवडा"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d MMMM, y",
@@ -240,13 +249,13 @@
                     "narrow": [
                         "इ. स. पू.",
                         "इ. स.",
-                        "ईसापूर्व युग",
+                        "इ. स. पू. युग",
                         "ख्रि. यु."
                     ],
                     "short": [
                         "इ. स. पू.",
                         "इ. स.",
-                        "ईसापूर्व युग",
+                        "इ. स. पू. युग",
                         "ख्रि. यु."
                     ],
                     "long": [
@@ -323,7 +332,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

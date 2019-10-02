@@ -13,12 +13,17 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d.",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E, d.",
-                "Ehm": "E h:mm a",
+                "Ehm": "E, h:mm a",
                 "EHm": "E HH:mm",
-                "Ehms": "E h:mm:ss a",
+                "Ehms": "E, h:mm:ss a",
                 "EHms": "E HH:mm:ss",
                 "Gy": "y G",
                 "GyM": "MMM y G",
@@ -26,7 +31,7 @@
                 "GyMMMd": "d. MMM y G",
                 "GyMMMEd": "E, d. MMM y G",
                 "h": "h a",
-                "H": "HH",
+                "H": "HH'h'",
                 "hm": "h:mm a",
                 "Hm": "HH:mm",
                 "hms": "h:mm:ss a",
@@ -41,7 +46,11 @@
                 "MMM": "LLL",
                 "MMMd": "d. MMM",
                 "MMMEd": "E, d. MMM",
-                "MMMMd": "d MMMM",
+                "MMMMd": "d. MMMM",
+                "MMMMW-count-one": "W. 'teden' 'v' MMMM",
+                "MMMMW-count-two": "W. 'teden' 'v' MMMM",
+                "MMMMW-count-few": "W. 'teden' 'v' MMMM",
+                "MMMMW-count-other": "W. 'teden' 'v' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -52,7 +61,11 @@
                 "yMMMEd": "E, d. MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "w. 'teden' 'v' Y",
+                "yw-count-two": "w. 'teden' 'v' Y",
+                "yw-count-few": "w. 'teden' 'v' Y",
+                "yw-count-other": "w. 'teden' 'v' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, dd. MMMM y",
@@ -238,21 +251,21 @@
                 "eras": {
                     "narrow": [
                         "pr. Kr.",
-                        "po n. št.",
+                        "po Kr.",
                         "pr. n. št.",
-                        "n. št."
+                        "po n. št."
                     ],
                     "short": [
                         "pr. Kr.",
-                        "po n. št.",
+                        "po Kr.",
                         "pr. n. št.",
-                        "n. št."
+                        "po n. št."
                     ],
                     "long": [
                         "pred Kristusom",
-                        "naše štetje",
+                        "po Kristusu",
                         "pred našim štetjem",
-                        "po n. št."
+                        "po našem štetju"
                     ]
                 },
                 "dayPeriods": {
@@ -276,8 +289,8 @@
                 "negativePattern": "{minusSign}{number} {currency}"
             },
             "percent": {
-                "positivePattern": "{number}{percentSign}",
-                "negativePattern": "{minusSign}{number}{percentSign}"
+                "positivePattern": "{number} {percentSign}",
+                "negativePattern": "{minusSign}{number} {percentSign}"
             }
         },
         "symbols": {
@@ -286,32 +299,25 @@
                 "group": ".",
                 "nan": "NaN",
                 "plusSign": "+",
-                "minusSign": "-",
+                "minusSign": "−",
                 "percentSign": "%",
                 "infinity": "∞"
             }
         },
         "currencies": {
-            "AUD": "A$",
-            "BRL": "R$",
             "CNY": "CN¥",
             "EUR": "€",
-            "GBP": "£",
             "HKD": "HK$",
             "ILS": "₪",
             "INR": "₹",
             "JPY": "¥",
             "KRW": "₩",
-            "MXN": "MX$",
-            "NZD": "NZ$",
-            "THB": "฿",
-            "TWD": "NT$",
             "USD": "$",
             "VND": "₫",
             "XAF": "FCFA",
-            "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

@@ -6,24 +6,29 @@
             "generic"
         ],
         "hourNo0": true,
-        "hour12": true,
+        "hour12": false,
         "formats": {
-            "short": "{1} {0}",
-            "medium": "{1} {0}",
-            "full": "{1} {0}",
-            "long": "{1} {0}",
+            "short": "{1}, {0}",
+            "medium": "{1}, {0}",
+            "full": "{1} 'na' {0}",
+            "long": "{1} 'na' {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d, E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
                 "Ehms": "E h:mm:ss a",
                 "EHms": "E HH:mm:ss",
                 "Gy": "G y",
-                "GyMMM": "G y MMM",
-                "GyMMMd": "G y MMM d",
-                "GyMMMEd": "G y MMM d, E",
+                "GyMMM": "MMM G y",
+                "GyMMMd": "d MMM, G y",
+                "GyMMMEd": "E, d MMM, G y",
                 "h": "h a",
                 "H": "HH",
                 "hm": "h:mm a",
@@ -35,36 +40,38 @@
                 "hmv": "h:mm a v",
                 "Hmv": "HH:mm v",
                 "M": "L",
-                "Md": "M/d",
-                "MEd": "E, M/d",
+                "Md": "d/M",
+                "MEd": "E, d/M",
                 "MMM": "LLL",
-                "MMMd": "MMM d",
-                "MMMEd": "E, MMM d",
-                "MMMMd": "MMMM d",
-                "MMMMEd": "E, MMMM d",
+                "MMMd": "d MMM",
+                "MMMEd": "E, d MMM",
+                "MMMMd": "d MMMM",
+                "MMMMEd": "E, d MMMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
-                "yMd": "y-MM-dd",
-                "yMEd": "E, M/d/y",
+                "yMd": "d/M/y",
+                "yMEd": "E, d/M/y",
                 "yMMM": "MMM y",
-                "yMMMd": "y MMM d",
-                "yMMMEd": "E, MMM d, y",
+                "yMMMd": "d MMM y",
+                "yMMMEd": "E, d MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-other": "'week' w 'of' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d MMMM y",
                 "yMMMMd": "d MMMM y",
                 "yMMMd": "d MMM y",
-                "yMd": "dd/MM/y"
+                "yMd": "d/M/yy"
             },
             "timeFormats": {
-                "hmmsszzzz": "h:mm:ss a zzzz",
-                "hmsz": "h:mm:ss a z",
-                "hms": "h:mm:ss a",
-                "hm": "h:mm a"
+                "hmmsszzzz": "HH:mm:ss zzzz",
+                "hmsz": "HH:mm:ss z",
+                "hms": "HH:mm:ss",
+                "hm": "HH:mm"
             }
         },
         "calendars": {
@@ -130,10 +137,10 @@
                         "Wen",
                         "Tọọ",
                         "Fraị",
-                        "Sat"
+                        "Satọdee"
                     ],
                     "long": [
-                        "Mbọsị Ụka",
+                        "Ụbọchị Ụka",
                         "Mọnde",
                         "Tiuzdee",
                         "Wenezdee",
@@ -157,25 +164,25 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "A.M.",
-                    "pm": "P.M."
+                    "am": "N’ụtụtụ",
+                    "pm": "N’abali"
                 }
             },
             "gregory": {
                 "months": {
                     "narrow": [
-                        "1",
-                        "2",
-                        "3",
-                        "4",
-                        "5",
-                        "6",
-                        "7",
-                        "8",
-                        "9",
-                        "10",
-                        "11",
-                        "12"
+                        "J",
+                        "F",
+                        "M",
+                        "E",
+                        "M",
+                        "J",
+                        "J",
+                        "Ọ",
+                        "S",
+                        "Ọ",
+                        "N",
+                        "D"
                     ],
                     "short": [
                         "Jen",
@@ -195,7 +202,7 @@
                         "Jenụwarị",
                         "Febrụwarị",
                         "Maachị",
-                        "Eprel",
+                        "Epreel",
                         "Mee",
                         "Juun",
                         "Julaị",
@@ -223,10 +230,10 @@
                         "Wen",
                         "Tọọ",
                         "Fraị",
-                        "Sat"
+                        "Satọdee"
                     ],
                     "long": [
-                        "Mbọsị Ụka",
+                        "Ụbọchị Ụka",
                         "Mọnde",
                         "Tiuzdee",
                         "Wenezdee",
@@ -245,8 +252,8 @@
                     "short": [
                         "T.K.",
                         "A.K.",
-                        "BCE",
-                        "CE"
+                        "TOA",
+                        "OA"
                     ],
                     "long": [
                         "Tupu Kristi",
@@ -256,8 +263,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "A.M.",
-                    "pm": "P.M."
+                    "am": "N’ụtụtụ",
+                    "pm": "N’abali"
                 }
             }
         }
@@ -301,18 +308,19 @@
             "HKD": "HK$",
             "ILS": "₪",
             "INR": "₹",
-            "JPY": "JP¥",
+            "JPY": "¥",
             "KRW": "₩",
             "MXN": "MX$",
             "NGN": "₦",
             "NZD": "NZ$",
             "TWD": "NT$",
-            "USD": "US$",
+            "USD": "$",
             "VND": "₫",
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -40,9 +45,11 @@
                 "MEd": "E, d.M",
                 "MMM": "LLL",
                 "MMMd": "d MMM",
-                "MMMEd": "E d MMM",
+                "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
-                "MMMMEd": "E d MMMM",
+                "MMMMEd": "E, d MMMM",
+                "MMMMW-count-one": "W 'седмица' 'од' MMMM",
+                "MMMMW-count-other": "W 'седмица' 'од' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M.y",
@@ -53,7 +60,9 @@
                 "yMMMEd": "E, d MMM y 'г'.",
                 "yMMMM": "MMMM y 'г'.",
                 "yQQQ": "QQQ y 'г'.",
-                "yQQQQ": "QQQQ y 'г'."
+                "yQQQQ": "QQQQ y 'г'.",
+                "yw-count-one": "w 'седмица' 'од' Y",
+                "yw-count-other": "w 'седмица' 'од' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, dd MMMM y",
@@ -240,20 +249,20 @@
                     "narrow": [
                         "пр.н.е.",
                         "н.е.",
-                        "пр. н.е.",
+                        "п.н.е.",
                         "CE"
                     ],
                     "short": [
                         "пр.н.е.",
                         "н.е.",
-                        "пр. н.е.",
+                        "п.н.е.",
                         "CE"
                     ],
                     "long": [
                         "пред нашата ера",
                         "од нашата ера",
                         "пр. н.е.",
-                        "CE"
+                        "нашата ера"
                     ]
                 },
                 "dayPeriods": {
@@ -273,8 +282,8 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{currency} {number}",
-                "negativePattern": "{minusSign}{currency} {number}"
+                "positivePattern": "{number} {currency}",
+                "negativePattern": "{minusSign}{number} {currency}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",
@@ -302,7 +311,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

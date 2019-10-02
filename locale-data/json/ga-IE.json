@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -41,6 +46,11 @@
                 "MMMd": "d MMM",
                 "MMMEd": "E d MMM",
                 "MMMMd": "d MMMM",
+                "MMMMW-count-one": "'seachtain' 'a' W 'i' MMMM",
+                "MMMMW-count-two": "'seachtain' 'a' W 'i' MMMM",
+                "MMMMW-count-few": "'seachtain' 'a' W 'i' MMMM",
+                "MMMMW-count-many": "'seachtain' 'a' W 'i' MMMM",
+                "MMMMW-count-other": "'seachtain' 'a' W 'i' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "MM/y",
@@ -51,7 +61,12 @@
                 "yMMMEd": "E d MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'seachtain' 'a' w 'i' Y",
+                "yw-count-two": "'seachtain' 'a' w 'i' Y",
+                "yw-count-few": "'seachtain' 'a' w 'i' Y",
+                "yw-count-many": "'seachtain' 'a' w 'i' Y",
+                "yw-count-other": "'seachtain' 'a' w 'i' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE d MMMM y",
@@ -156,8 +171,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "a.m.",
-                    "pm": "p.m."
+                    "am": "r.n.",
+                    "pm": "i.n."
                 }
             },
             "gregory": {
@@ -255,8 +270,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "a.m.",
-                    "pm": "p.m."
+                    "am": "r.n.",
+                    "pm": "i.n."
                 }
             }
         }

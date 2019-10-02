@@ -13,8 +13,13 @@
             "full": "{1} 'um' {0}",
             "long": "{1} 'um' {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E, d.",
                 "Ehm": "E h:mm a",
                 "EHm": "E, HH:mm",
@@ -24,7 +29,7 @@
                 "GyMMM": "MMM y G",
                 "GyMMMd": "d. MMM y G",
                 "GyMMMEd": "E, d. MMM y G",
-                "h": "h a",
+                "h": "h 'Uhr' a",
                 "H": "HH 'Uhr'",
                 "hm": "h:mm a",
                 "Hm": "HH:mm",
@@ -44,6 +49,8 @@
                 "MMMEd": "E, d. MMM",
                 "MMMMd": "d. MMMM",
                 "MMMMEd": "E, d. MMMM",
+                "MMMMW-count-one": "'Woche' W 'im' MMMM",
+                "MMMMW-count-other": "'Woche' W 'im' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M.y",
@@ -56,7 +63,9 @@
                 "yMMMEd": "E, d. MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'Woche' w 'des' 'Jahres' Y",
+                "yw-count-other": "'Woche' w 'des' 'Jahres' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d. MMMM y",
@@ -161,8 +170,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "vorm.",
-                    "pm": "nachm."
+                    "am": "AM",
+                    "pm": "PM"
                 }
             },
             "gregory": {
@@ -190,7 +199,7 @@
                         "Juni",
                         "Juli",
                         "Aug.",
-                        "Sep.",
+                        "Sept.",
                         "Okt.",
                         "Nov.",
                         "Dez."
@@ -260,8 +269,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "vorm.",
-                    "pm": "nachm."
+                    "am": "AM",
+                    "pm": "PM"
                 }
             }
         }
@@ -287,7 +296,7 @@
         "symbols": {
             "latn": {
                 "decimal": ".",
-                "group": "'",
+                "group": "’",
                 "nan": "NaN",
                 "plusSign": "+",
                 "minusSign": "-",

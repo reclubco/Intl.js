@@ -13,12 +13,17 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "Bh时",
+                "Bhm": "Bh:mm",
+                "Bhms": "Bh:mm:ss",
                 "d": "d日",
                 "E": "ccc",
+                "EBhm": "EBh:mm",
+                "EBhms": "EBh:mm:ss",
                 "Ed": "d日E",
-                "Ehm": "E ah:mm",
+                "Ehm": "Eah:mm",
                 "EHm": "EHH:mm",
-                "Ehms": "E ah:mm:ss",
+                "Ehms": "Eah:mm:ss",
                 "EHms": "EHH:mm:ss",
                 "Gy": "Gy年",
                 "GyMMM": "Gy年M月",
@@ -43,6 +48,7 @@
                 "MMMEd": "M月d日E",
                 "MMMMd": "M月d日",
                 "MMMMdd": "M月d日",
+                "MMMMW-count-other": "MMMM第W周",
                 "ms": "mm:ss",
                 "y": "y年",
                 "yM": "y年M月",
@@ -54,7 +60,8 @@
                 "yMMMEd": "y年M月d日E",
                 "yMMMM": "y年M月",
                 "yQQQ": "y年第Q季度",
-                "yQQQQ": "y年第Q季度"
+                "yQQQQ": "y年第Q季度",
+                "yw-count-other": "Y年第w周"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "y年M月d日EEEE",
@@ -241,20 +248,20 @@
                     "narrow": [
                         "公元前",
                         "公元",
-                        "西元前",
-                        "西元"
+                        "BCE",
+                        "CE"
                     ],
                     "short": [
                         "公元前",
                         "公元",
-                        "西元前",
-                        "西元"
+                        "BCE",
+                        "CE"
                     ],
                     "long": [
                         "公元前",
                         "公元",
-                        "西元前",
-                        "西元"
+                        "BCE",
+                        "CE"
                     ]
                 },
                 "dayPeriods": {

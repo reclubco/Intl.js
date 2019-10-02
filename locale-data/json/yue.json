@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "Bh時",
+                "Bhm": "Bh:mm",
+                "Bhms": "Bh:mm:ss",
                 "d": "d日",
                 "E": "ccc",
+                "EBhm": "E Bh:mm",
+                "EBhms": "E Bh:mm:ss",
                 "Ed": "d E",
                 "Ehm": "E ah:mm",
                 "EHm": "E HH:mm",
@@ -42,6 +47,7 @@
                 "MMMd": "M月d日",
                 "MMMEd": "M月d日 E",
                 "MMMMd": "M月d日",
+                "MMMMW-count-other": "M月第W個星期",
                 "ms": "mm:ss",
                 "y": "y年",
                 "yM": "y/M",
@@ -53,7 +59,8 @@
                 "yMMMEd": "y年M月d日 E",
                 "yMMMM": "y年M月",
                 "yQQQ": "y年QQQ",
-                "yQQQQ": "y年QQQQ"
+                "yQQQQ": "y年QQQQ",
+                "yw-count-other": "Y年第w個星期"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "y年M月d日 EEEE",
@@ -125,13 +132,13 @@
                         "六"
                     ],
                     "short": [
-                        "週日",
-                        "週一",
-                        "週二",
-                        "週三",
-                        "週四",
-                        "週五",
-                        "週六"
+                        "星期日",
+                        "星期一",
+                        "星期二",
+                        "星期三",
+                        "星期四",
+                        "星期五",
+                        "星期六"
                     ],
                     "long": [
                         "星期日",
@@ -218,13 +225,13 @@
                         "六"
                     ],
                     "short": [
-                        "週日",
-                        "週一",
-                        "週二",
-                        "週三",
-                        "週四",
-                        "週五",
-                        "週六"
+                        "星期日",
+                        "星期一",
+                        "星期二",
+                        "星期三",
+                        "星期四",
+                        "星期五",
+                        "星期六"
                     ],
                     "long": [
                         "星期日",
@@ -315,7 +322,7 @@
             "KRW": "￦",
             "MXN": "MX$",
             "NZD": "NZ$",
-            "TWD": "$",
+            "TWD": "NT$",
             "USD": "US$",
             "VND": "₫",
             "XAF": "FCFA",

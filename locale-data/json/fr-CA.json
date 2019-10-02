@@ -13,27 +13,32 @@
             "full": "{1} 'à' {0}",
             "long": "{1} 'à' {0}",
             "availableFormats": {
+                "Bh": "h 'h' B",
+                "Bhm": "h 'h' mm B",
+                "Bhms": "h 'h' mm 'min' ss 's' B",
                 "d": "d",
                 "E": "E",
+                "EBhm": "E h 'h' mm B",
+                "EBhms": "E h 'h' mm 'min' ss 's' B",
                 "Ed": "E d",
-                "Ehm": "E h:mm a",
-                "EHm": "E HH:mm",
-                "Ehms": "E h:mm:ss a",
-                "EHms": "E HH:mm:ss",
+                "Ehm": "E h 'h' mm a",
+                "EHm": "E HH 'h' mm",
+                "Ehms": "E h 'h' mm 'min' ss 's' a",
+                "EHms": "E HH 'h' mm 'min' ss 's'",
                 "Gy": "y G",
                 "GyMMM": "MMM y G",
                 "GyMMMd": "d MMM y G",
                 "GyMMMEd": "E d MMM y G",
-                "h": "h a",
+                "h": "h 'h' a",
                 "H": "HH 'h'",
-                "hm": "h:mm a",
-                "Hm": "HH:mm",
-                "hms": "h:mm:ss a",
-                "Hms": "HH:mm:ss",
-                "hmsv": "h:mm:ss a v",
-                "Hmsv": "HH:mm:ss v",
-                "hmv": "h:mm a v",
-                "Hmv": "HH:mm v",
+                "hm": "h 'h' mm a",
+                "Hm": "HH 'h' mm",
+                "hms": "h 'h' mm 'min' ss 's' a",
+                "Hms": "HH 'h' mm 'min' ss 's'",
+                "hmsv": "h 'h' mm 'min' ss 's' a v",
+                "Hmsv": "HH 'h' mm 'min' ss 's' v",
+                "hmv": "h 'h' mm a v",
+                "Hmv": "HH 'h' mm v",
                 "M": "L",
                 "Md": "M-d",
                 "MEd": "E M-d",
@@ -43,7 +48,9 @@
                 "MMMd": "d MMM",
                 "MMMEd": "E d MMM",
                 "MMMMd": "d MMMM",
-                "ms": "mm:ss",
+                "MMMMW-count-one": "'semaine' W (MMMM)",
+                "MMMMW-count-other": "'semaine' W (MMMM)",
+                "ms": "mm 'min' ss 's'",
                 "y": "y",
                 "yM": "y-MM",
                 "yMd": "y-MM-dd",
@@ -54,7 +61,9 @@
                 "yMMMEd": "E d MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'semaine' w 'de' Y",
+                "yw-count-other": "'semaine' w 'de' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE d MMMM y",
@@ -63,10 +72,10 @@
                 "yMd": "yy-MM-dd"
             },
             "timeFormats": {
-                "hmmsszzzz": "HH:mm:ss zzzz",
-                "hmsz": "HH:mm:ss z",
-                "hms": "HH:mm:ss",
-                "hm": "HH:mm"
+                "hmmsszzzz": "HH 'h' mm 'min' ss 's' zzzz",
+                "hmsz": "HH 'h' mm 'min' ss 's' z",
+                "hms": "HH 'h' mm 'min' ss 's'",
+                "hm": "HH 'h' mm"
             }
         },
         "calendars": {
@@ -159,8 +168,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "AM",
-                    "pm": "PM"
+                    "am": "a.m.",
+                    "pm": "p.m."
                 }
             },
             "gregory": {
@@ -186,7 +195,7 @@
                         "avr.",
                         "mai",
                         "juin",
-                        "juil.",
+                        "juill.",
                         "août",
                         "sept.",
                         "oct.",
@@ -253,13 +262,13 @@
                     "long": [
                         "avant Jésus-Christ",
                         "après Jésus-Christ",
-                        "avant l’ère commune",
-                        "de l’ère commune"
+                        "avant l’ère chrétienne",
+                        "de l’ère chrétienne"
                     ]
                 },
                 "dayPeriods": {
-                    "am": "AM",
-                    "pm": "PM"
+                    "am": "a.m.",
+                    "pm": "p.m."
                 }
             }
         }
@@ -306,7 +315,6 @@
             "HKD": "$ HK",
             "IEP": "£IE",
             "ILP": "£IL",
-            "INR": "₹",
             "ITL": "₤IT",
             "JPY": "¥",
             "MTP": "£MT",
@@ -314,7 +322,7 @@
             "RHD": "$RH",
             "SGD": "$ SG",
             "USD": "$ US",
-            "WST": "WS$"
+            "XXX": "¤"
         }
     }
 }

@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -41,6 +46,8 @@
                 "MMMd": "MMM d",
                 "MMMEd": "MMM d, E",
                 "MMMMd": "MMMM d",
+                "MMMMW-count-one": "MMMM को W हप्ता",
+                "MMMMW-count-other": "MMMM को W हप्ता",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "y-MM",
@@ -51,13 +58,15 @@
                 "yMMMEd": "y MMM d, E",
                 "yMMMM": "y MMMM",
                 "yQQQ": "y QQQ",
-                "yQQQQ": "y QQQQ"
+                "yQQQQ": "y QQQQ",
+                "yw-count-one": "Y को w हप्ता",
+                "yw-count-other": "Y को w हप्ता"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "y MMMM d, EEEE",
                 "yMMMMd": "y MMMM d",
                 "yMMMd": "y MMM d",
-                "yMd": "y-MM-dd"
+                "yMd": "yy/M/d"
             },
             "timeFormats": {
                 "hmmsszzzz": "HH:mm:ss zzzz",
@@ -127,7 +136,7 @@
                         "सोम",
                         "मङ्गल",
                         "बुध",
-                        "बिही",
+                        "बिहि",
                         "शुक्र",
                         "शनि"
                     ],
@@ -163,18 +172,18 @@
             "gregory": {
                 "months": {
                     "narrow": [
-                        "१",
-                        "२",
-                        "३",
-                        "४",
-                        "५",
-                        "६",
-                        "७",
-                        "८",
-                        "९",
-                        "१०",
-                        "११",
-                        "१२"
+                        "जन",
+                        "फेब",
+                        "मार्च",
+                        "अप्र",
+                        "मे",
+                        "जुन",
+                        "जुल",
+                        "अग",
+                        "सेप",
+                        "अक्टो",
+                        "नोभे",
+                        "डिसे"
                     ],
                     "short": [
                         "जनवरी",
@@ -195,7 +204,7 @@
                         "फेब्रुअरी",
                         "मार्च",
                         "अप्रिल",
-                        "मई",
+                        "मे",
                         "जुन",
                         "जुलाई",
                         "अगस्ट",
@@ -220,7 +229,7 @@
                         "सोम",
                         "मङ्गल",
                         "बुध",
-                        "बिही",
+                        "बिहि",
                         "शुक्र",
                         "शनि"
                     ],
@@ -239,19 +248,19 @@
                         "ईसा पूर्व",
                         "सन्",
                         "इस्वीपूर्व",
-                        "सिइ"
+                        "ईसा काल"
                     ],
                     "short": [
                         "ईसा पूर्व",
                         "सन्",
                         "इस्वीपूर्व",
-                        "सिइ"
+                        "ईसा काल"
                     ],
                     "long": [
                         "ईसा पूर्व",
                         "सन्",
                         "इस्वीपूर्व",
-                        "सिइ"
+                        "ईसा काल"
                     ]
                 },
                 "dayPeriods": {
@@ -322,7 +331,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

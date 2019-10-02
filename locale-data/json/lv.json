@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E, h:mm B",
+                "EBhms": "E, h:mm:ss B",
                 "Ed": "E, d.",
                 "Ehm": "E, h:mm a",
                 "EHm": "E, HH:mm",
@@ -42,18 +47,24 @@
                 "MMMEd": "E, d. MMM",
                 "MMMMd": "d. MMMM",
                 "MMMMEd": "E, d. MMMM",
+                "MMMMW-count-zero": "MMMM W. 'nedēļa'",
+                "MMMMW-count-one": "MMMM W. 'nedēļa'",
+                "MMMMW-count-other": "MMMM W. 'nedēļa'",
                 "mmss": "mm:ss",
                 "ms": "mm:ss",
                 "y": "y. 'g'.",
                 "yM": "MM.y.",
-                "yMd": "d.M.y.",
+                "yMd": "y.MM.d.",
                 "yMEd": "E, d.M.y.",
                 "yMMM": "y. 'g'. MMM",
                 "yMMMd": "y. 'g'. d. MMM",
                 "yMMMEd": "E, y. 'g'. d. MMM",
                 "yMMMM": "y. 'g'. MMMM",
                 "yQQQ": "y. 'g'. QQQ",
-                "yQQQQ": "y. 'g'. QQQQ"
+                "yQQQQ": "y. 'g'. QQQQ",
+                "yw-count-zero": "Y. 'g'. w. 'nedēļa'",
+                "yw-count-one": "Y. 'g'. w. 'nedēļa'",
+                "yw-count-other": "Y. 'g'. w. 'nedēļa'"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, y. 'gada' d. MMMM",
@@ -125,13 +136,13 @@
                         "S"
                     ],
                     "short": [
-                        "Sv",
-                        "Pr",
-                        "Ot",
-                        "Tr",
-                        "Ce",
-                        "Pk",
-                        "Se"
+                        "svētd.",
+                        "pirmd.",
+                        "otrd.",
+                        "trešd.",
+                        "ceturtd.",
+                        "piektd.",
+                        "sestd."
                     ],
                     "long": [
                         "svētdiena",
@@ -218,13 +229,13 @@
                         "S"
                     ],
                     "short": [
-                        "Sv",
-                        "Pr",
-                        "Ot",
-                        "Tr",
-                        "Ce",
-                        "Pk",
-                        "Se"
+                        "svētd.",
+                        "pirmd.",
+                        "otrd.",
+                        "trešd.",
+                        "ceturtd.",
+                        "piektd.",
+                        "sestd."
                     ],
                     "long": [
                         "svētdiena",
@@ -285,7 +296,7 @@
             "latn": {
                 "decimal": ",",
                 "group": " ",
-                "nan": "nav skaitlis",
+                "nan": "NS",
                 "plusSign": "+",
                 "minusSign": "-",
                 "percentSign": "%",
@@ -314,7 +325,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

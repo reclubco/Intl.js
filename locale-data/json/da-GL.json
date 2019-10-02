@@ -6,15 +6,20 @@
             "generic"
         ],
         "hourNo0": true,
-        "hour12": true,
+        "hour12": false,
         "formats": {
             "short": "{1} {0}",
             "medium": "{1} {0}",
             "full": "{1} 'kl'. {0}",
             "long": "{1} 'kl'. {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h.mm B",
+                "Bhms": "h.mm.ss B",
                 "d": "d.",
                 "E": "ccc",
+                "EBhm": "E h.mm B",
+                "EBhms": "E h.mm.ss B",
                 "Ed": "E 'den' d.",
                 "Ehm": "E h.mm a",
                 "EHm": "E HH.mm",
@@ -35,38 +40,42 @@
                 "hmv": "h.mm a v",
                 "Hmv": "HH.mm v",
                 "M": "M",
-                "Md": "d/M",
-                "MEd": "E d/M",
-                "MMdd": "dd/MM",
+                "Md": "d.M",
+                "MEd": "E d.M",
+                "MMdd": "dd.MM",
                 "MMM": "MMM",
                 "MMMd": "d. MMM",
                 "MMMEd": "E d. MMM",
                 "MMMMd": "d. MMMM",
                 "MMMMEd": "E d. MMMM",
+                "MMMMW-count-one": "'uge' W 'i' MMMM",
+                "MMMMW-count-other": "'uge' W 'i' MMMM",
                 "ms": "mm.ss",
                 "y": "y",
-                "yM": "M/y",
-                "yMd": "d/M/y",
-                "yMEd": "E d/M/y",
-                "yMM": "MM/y",
+                "yM": "M.y",
+                "yMd": "d.M.y",
+                "yMEd": "E d.M.y",
+                "yMM": "MM.y",
                 "yMMM": "MMM y",
                 "yMMMd": "d. MMM y",
                 "yMMMEd": "E d. MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'uge' w 'i' Y",
+                "yw-count-other": "'uge' w 'i' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE 'den' d. MMMM y",
                 "yMMMMd": "d. MMMM y",
                 "yMMMd": "d. MMM y",
-                "yMd": "dd/MM/y"
+                "yMd": "dd.MM.y"
             },
             "timeFormats": {
-                "hmmsszzzz": "h.mm.ss a zzzz",
-                "hmsz": "h.mm.ss a z",
-                "hms": "h.mm.ss a",
-                "hm": "h.mm a"
+                "hmmsszzzz": "HH.mm.ss zzzz",
+                "hmsz": "HH.mm.ss z",
+                "hms": "HH.mm.ss",
+                "hm": "HH.mm"
             }
         },
         "calendars": {
@@ -315,7 +324,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

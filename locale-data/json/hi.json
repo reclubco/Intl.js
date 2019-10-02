@@ -13,8 +13,13 @@
             "full": "{1} को {0}",
             "long": "{1} को {0}",
             "availableFormats": {
+                "Bh": "B h",
+                "Bhm": "B h:mm",
+                "Bhms": "B h:mm:ss",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E B h:mm",
+                "EBhms": "E B h:mm:ss",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -43,6 +48,8 @@
                 "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
                 "MMMMEd": "E, d MMMM",
+                "MMMMW-count-one": "MMMM का सप्ताह W",
+                "MMMMW-count-other": "MMMM का सप्ताह W",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -55,12 +62,14 @@
                 "yMMMEd": "E, d MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "Y का सप्ताह w",
+                "yw-count-other": "Y का सप्ताह w"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d MMMM y",
                 "yMMMMd": "d MMMM y",
-                "yMMMd": "dd/MM/y",
+                "yMMMd": "d MMM y",
                 "yMd": "d/M/yy"
             },
             "timeFormats": {
@@ -160,8 +169,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "पूर्वाह्न",
-                    "pm": "अपराह्न"
+                    "am": "am",
+                    "pm": "pm"
                 }
             },
             "gregory": {
@@ -259,8 +268,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "पूर्वाह्न",
-                    "pm": "अपराह्न"
+                    "am": "am",
+                    "pm": "pm"
                 }
             }
         }
@@ -325,7 +334,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

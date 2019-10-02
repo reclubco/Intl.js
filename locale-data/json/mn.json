@@ -8,60 +8,69 @@
         "hourNo0": true,
         "hour12": false,
         "formats": {
-            "short": "{1}, {0}",
+            "short": "{1} {0}",
             "medium": "{1} {0}",
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "B h 'ц'",
+                "Bhm": "B h:mm",
+                "Bhms": "B h:mm:ss",
                 "d": "d",
                 "E": "ccc",
-                "Ed": "dd E",
-                "Ehm": "E h:mm a",
-                "EHm": "E HH:mm",
-                "Ehms": "E h:mm:ss a",
-                "EHms": "E HH:mm:ss",
+                "EBhm": "E. B h:mm",
+                "EBhms": "E. B h:mm:ss",
+                "Ed": "dd. E",
+                "Ehm": "E. h:mm a",
+                "EHm": "E. HH:mm",
+                "Ehms": "E. h:mm:ss a",
+                "EHms": "E. HH:mm:ss",
                 "Gy": "G y",
-                "GyMMM": "G y MMM",
-                "GyMMMd": "G y MMM d",
-                "GyMMMEd": "E, G y MMM d",
-                "h": "h a",
-                "H": "HH",
+                "GyMMM": "G y 'оны' MMM",
+                "GyMMMd": "G y 'оны' MMM'ын' d",
+                "GyMMMEd": "G y 'оны' MMM'ын' d. E",
+                "h": "h 'ц' a",
+                "H": "HH 'ц'",
                 "hm": "h:mm a",
                 "Hm": "HH:mm",
                 "hms": "h:mm:ss a",
                 "Hms": "HH:mm:ss",
-                "hmsv": "h:mm:ss a v",
-                "Hmsv": "HH:mm:ss v",
-                "hmv": "h:mm a v",
-                "Hmv": "HH:mm v",
-                "M": "L",
-                "Md": "M-d",
-                "MEd": "E, M-d",
+                "hmsv": "h:mm:ss a (v)",
+                "Hmsv": "HH:mm:ss (v)",
+                "hmv": "h:mm a (v)",
+                "Hmv": "HH:mm (v)",
+                "M": "LLLLL",
+                "Md": "MMMMM/dd",
+                "MEd": "MMMMM/dd. E",
                 "MMM": "LLL",
-                "MMMd": "MMM d",
-                "MMMEd": "E MMM d",
-                "MMMMd": "MMMM d",
+                "MMMd": "MMM'ын' d",
+                "MMMEd": "MMM'ын' d. E",
+                "MMMMd": "MMMM'ын' d",
+                "MMMMW-count-one": "MMMM'ын' W-'р' 'долоо' 'хоног'",
+                "MMMMW-count-other": "MMMM'ын' W-'р' 'долоо' 'хоног'",
                 "ms": "mm:ss",
                 "y": "y",
-                "yM": "y-M",
-                "yMd": "y-M-d",
-                "yMEd": "E, y-M-d",
-                "yMMM": "y MMM",
-                "yMMMd": "y MMM d",
-                "yMMMEd": "E, y MMM d",
-                "yMMMM": "y MMMM",
-                "yQQQ": "y QQQ",
-                "yQQQQ": "y 'оны' QQQQ"
+                "yM": "y MMMMM",
+                "yMd": "y.MM.dd",
+                "yMEd": "y.MM.dd. E",
+                "yMMM": "y 'оны' MMM",
+                "yMMMd": "y 'оны' MMM'ын' d",
+                "yMMMEd": "y 'оны' MMM'ын' d. E",
+                "yMMMM": "y 'оны' MMMM",
+                "yQQQ": "y 'оны' QQQ",
+                "yQQQQ": "y 'оны' QQQQ",
+                "yw-count-one": "Y 'оны' w-'р' 'долоо' 'хоног'",
+                "yw-count-other": "Y 'оны' w-'р' 'долоо' 'хоног'"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE, y 'оны' MM 'сарын' d",
-                "yMMMMd": "y 'оны' MM 'сарын' d",
-                "yMMMd": "y MMM d",
-                "yMd": "y-MM-dd"
+                "yMMMMEEEEd": "y.MM.dd, EEEE",
+                "yMMMMd": "y.MM.dd",
+                "yMMMd": "y 'оны' MMM'ын' d",
+                "yMd": "y.MM.dd"
             },
             "timeFormats": {
-                "hmmsszzzz": "HH:mm:ss zzzz",
-                "hmsz": "HH:mm:ss z",
+                "hmmsszzzz": "HH:mm:ss (zzzz)",
+                "hmsz": "HH:mm:ss (z)",
                 "hms": "HH:mm:ss",
                 "hm": "HH:mm"
             }
@@ -114,13 +123,13 @@
                 },
                 "days": {
                     "narrow": [
-                        "1",
-                        "2",
-                        "3",
-                        "4",
-                        "5",
-                        "6",
-                        "7"
+                        "Ня",
+                        "Да",
+                        "Мя",
+                        "Лх",
+                        "Пү",
+                        "Ба",
+                        "Бя"
                     ],
                     "short": [
                         "Ня",
@@ -156,25 +165,25 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "ҮӨ",
-                    "pm": "ҮХ"
+                    "am": "ү.ө.",
+                    "pm": "ү.х."
                 }
             },
             "gregory": {
                 "months": {
                     "narrow": [
-                        "1",
-                        "2",
-                        "3",
-                        "4",
-                        "5",
-                        "6",
-                        "7",
-                        "8",
-                        "9",
-                        "10",
-                        "11",
-                        "12"
+                        "I",
+                        "II",
+                        "III",
+                        "IV",
+                        "V",
+                        "VI",
+                        "VII",
+                        "VIII",
+                        "IX",
+                        "X",
+                        "XI",
+                        "XII"
                     ],
                     "short": [
                         "1-р сар",
@@ -191,29 +200,29 @@
                         "12-р сар"
                     ],
                     "long": [
-                        "Нэгдүгээр сар",
-                        "Хоёрдугаар сар",
-                        "Гуравдугаар сар",
-                        "Дөрөвдүгээр сар",
-                        "Тавдугаар сар",
-                        "Зургадугаар сар",
-                        "Долдугаар сар",
-                        "Наймдугаар сар",
-                        "Есдүгээр сар",
-                        "Аравдугаар сар",
-                        "Арван нэгдүгээр сар",
-                        "Арван хоёрдугаар сар"
+                        "нэгдүгээр сар",
+                        "хоёрдугаар сар",
+                        "гуравдугаар сар",
+                        "дөрөвдүгээр сар",
+                        "тавдугаар сар",
+                        "зургаадугаар сар",
+                        "долоодугаар сар",
+                        "наймдугаар сар",
+                        "есдүгээр сар",
+                        "аравдугаар сар",
+                        "арван нэгдүгээр сар",
+                        "арван хоёрдугаар сар"
                     ]
                 },
                 "days": {
                     "narrow": [
-                        "1",
-                        "2",
-                        "3",
-                        "4",
-                        "5",
-                        "6",
-                        "7"
+                        "Ня",
+                        "Да",
+                        "Мя",
+                        "Лх",
+                        "Пү",
+                        "Ба",
+                        "Бя"
                     ],
                     "short": [
                         "Ня",
@@ -242,8 +251,8 @@
                         "НТ"
                     ],
                     "short": [
-                        "м.э.ө",
-                        "м.э.",
+                        "МЭӨ",
+                        "МЭ",
                         "НТӨ",
                         "НТ"
                     ],
@@ -255,8 +264,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "ҮӨ",
-                    "pm": "ҮХ"
+                    "am": "ү.ө.",
+                    "pm": "ү.х."
                 }
             }
         }
@@ -312,7 +321,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

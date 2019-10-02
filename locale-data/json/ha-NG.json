@@ -6,16 +6,21 @@
             "generic"
         ],
         "hourNo0": true,
-        "hour12": true,
+        "hour12": false,
         "formats": {
             "short": "{1} {0}",
             "medium": "{1} {0}",
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
-                "Ed": "d, E",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
+                "Ed": "E, d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
                 "Ehms": "E h:mm:ss a",
@@ -42,29 +47,33 @@
                 "MMMEd": "E, MMM d",
                 "MMMMd": "MMMM d",
                 "MMMMEd": "E, MMMM d",
+                "MMMMW-count-one": "'week' W 'of' MMMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
                 "yMd": "y-MM-dd",
                 "yMEd": "E, M/d/y",
                 "yMMM": "MMM y",
-                "yMMMd": "y MMM d",
-                "yMMMEd": "E, MMM d, y",
+                "yMMMd": "d MMM, y",
+                "yMMMEd": "y MMM d, E",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE, d MMMM, y",
+                "yMMMMEEEEd": "EEEE d MMMM, y",
                 "yMMMMd": "d MMMM, y",
                 "yMMMd": "d MMM, y",
                 "yMd": "d/M/yy"
             },
             "timeFormats": {
-                "hmmsszzzz": "h:mm:ss a zzzz",
-                "hmsz": "h:mm:ss a z",
-                "hms": "h:mm:ss a",
-                "hm": "h:mm a"
+                "hmmsszzzz": "HH:mm:ss zzzz",
+                "hmsz": "HH:mm:ss z",
+                "hms": "HH:mm:ss",
+                "hm": "HH:mm"
             }
         },
         "calendars": {
@@ -124,13 +133,13 @@
                         "A"
                     ],
                     "short": [
-                        "Lh",
-                        "Li",
-                        "Ta",
-                        "Lr",
-                        "Al",
-                        "Ju",
-                        "As"
+                        "Lah",
+                        "Lit",
+                        "Tal",
+                        "Lar",
+                        "Alh",
+                        "Jum",
+                        "Asa"
                     ],
                     "long": [
                         "Lahadi",
@@ -157,8 +166,8 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "AM",
-                    "pm": "PM"
+                    "am": "Safiya",
+                    "pm": "Yamma"
                 }
             },
             "gregory": {
@@ -217,13 +226,13 @@
                         "A"
                     ],
                     "short": [
-                        "Lh",
-                        "Li",
-                        "Ta",
-                        "Lr",
-                        "Al",
-                        "Ju",
-                        "As"
+                        "Lah",
+                        "Lit",
+                        "Tal",
+                        "Lar",
+                        "Alh",
+                        "Jum",
+                        "Asa"
                     ],
                     "long": [
                         "Lahadi",
@@ -237,27 +246,27 @@
                 },
                 "eras": {
                     "narrow": [
-                        "KHAI",
+                        "K.H",
                         "BHAI",
-                        "BCE",
-                        "CE"
+                        "K.H.Y",
+                        "B.H.Y"
                     ],
                     "short": [
-                        "KHAI",
+                        "K.H",
                         "BHAI",
-                        "BCE",
-                        "CE"
+                        "K.H.Y",
+                        "B.H.Y"
                     ],
                     "long": [
                         "Kafin haihuwar annab",
                         "Bayan haihuwar annab",
-                        "BCE",
-                        "CE"
+                        "K.H.Y",
+                        "sananne Zamani"
                     ]
                 },
                 "dayPeriods": {
-                    "am": "AM",
-                    "pm": "PM"
+                    "am": "Safiya",
+                    "pm": "Yamma"
                 }
             }
         }
@@ -301,18 +310,19 @@
             "HKD": "HK$",
             "ILS": "₪",
             "INR": "₹",
-            "JPY": "JP¥",
+            "JPY": "¥",
             "KRW": "₩",
             "MXN": "MX$",
             "NGN": "₦",
             "NZD": "NZ$",
             "TWD": "NT$",
-            "USD": "US$",
+            "USD": "$",
             "VND": "₫",
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

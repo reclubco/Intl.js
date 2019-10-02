@@ -10,11 +10,16 @@
         "formats": {
             "short": "{1} {0}",
             "medium": "{1} {0}",
-            "full": "{1} {0}",
-            "long": "{1} {0}",
+            "full": "{1} 'om' {0}",
+            "long": "{1} 'om' {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -41,6 +46,8 @@
                 "MMMd": "d MMM",
                 "MMMEd": "E d MMM",
                 "MMMMd": "d MMMM",
+                "MMMMW-count-one": "'week' W 'van' MMMM",
+                "MMMMW-count-other": "'week' W 'van' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M-y",
@@ -51,13 +58,15 @@
                 "yMMMEd": "E d MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'week' w 'in' Y",
+                "yw-count-other": "'week' w 'in' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE d MMMM y",
                 "yMMMMd": "d MMMM y",
                 "yMMMd": "d MMM y",
-                "yMd": "dd-MM-yy"
+                "yMd": "dd-MM-y"
             },
             "timeFormats": {
                 "hmmsszzzz": "HH:mm:ss zzzz",

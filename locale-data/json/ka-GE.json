@@ -13,8 +13,13 @@
             "full": "{1}, {0}",
             "long": "{1}, {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d E",
                 "Ehm": "E, h:mm a",
                 "EHm": "E, HH:mm",
@@ -41,6 +46,8 @@
                 "MMMd": "d MMM",
                 "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
+                "MMMMW-count-one": "MMMM-ის კვირა W",
+                "MMMMW-count-other": "MMMM-ის კვირა W",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M.y",
@@ -51,7 +58,9 @@
                 "yMMMEd": "E, d MMM. y",
                 "yMMMM": "MMMM, y",
                 "yQQQ": "QQQ, y",
-                "yQQQQ": "QQQQ, y"
+                "yQQQQ": "QQQQ, y",
+                "yw-count-one": "კვირა w, Y",
+                "yw-count-other": "კვირა w, Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, dd MMMM, y",
@@ -275,8 +284,8 @@
                 "negativePattern": "{minusSign}{number} {currency}"
             },
             "percent": {
-                "positivePattern": "{number} {percentSign}",
-                "negativePattern": "{minusSign}{number} {percentSign}"
+                "positivePattern": "{number}{percentSign}",
+                "negativePattern": "{minusSign}{number}{percentSign}"
             }
         },
         "symbols": {
@@ -302,7 +311,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

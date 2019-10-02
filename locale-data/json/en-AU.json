@@ -13,8 +13,13 @@
             "full": "{1} 'at' {0}",
             "long": "{1} 'at' {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E, h:mm B",
+                "EBhms": "E, h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -34,14 +39,16 @@
                 "Hmsv": "HH:mm:ss v",
                 "hmv": "h:mm a v",
                 "Hmv": "HH:mm v",
-                "M": "LL",
-                "Md": "dd/MM",
-                "MEd": "E, dd/MM",
+                "M": "L",
+                "Md": "d/M",
+                "MEd": "E, d/M",
                 "MMdd": "dd/MM",
                 "MMM": "LLL",
                 "MMMd": "d MMM",
                 "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
+                "MMMMW-count-one": "'week' W 'of' MMMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "MM/y",
@@ -52,7 +59,9 @@
                 "yMMMEd": "E, d MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d MMMM y",
@@ -124,13 +133,13 @@
                         "Sa."
                     ],
                     "short": [
-                        "Sun.",
-                        "Mon.",
-                        "Tue.",
-                        "Wed.",
-                        "Thu.",
-                        "Fri.",
-                        "Sat."
+                        "Sun",
+                        "Mon",
+                        "Tue",
+                        "Wed",
+                        "Thu",
+                        "Fri",
+                        "Sat"
                     ],
                     "long": [
                         "Sunday",
@@ -164,32 +173,32 @@
             "gregory": {
                 "months": {
                     "narrow": [
-                        "Jan.",
-                        "Feb.",
-                        "Mar.",
-                        "Apr.",
-                        "May",
-                        "Jun.",
-                        "Jul.",
-                        "Aug.",
-                        "Sep.",
-                        "Oct.",
-                        "Nov.",
-                        "Dec."
+                        "J",
+                        "F",
+                        "M",
+                        "A",
+                        "M",
+                        "J",
+                        "J",
+                        "A",
+                        "S",
+                        "O",
+                        "N",
+                        "D"
                     ],
                     "short": [
-                        "Jan.",
-                        "Feb.",
-                        "Mar.",
-                        "Apr.",
+                        "Jan",
+                        "Feb",
+                        "Mar",
+                        "Apr",
                         "May",
-                        "Jun.",
-                        "Jul.",
-                        "Aug.",
-                        "Sep.",
-                        "Oct.",
-                        "Nov.",
-                        "Dec."
+                        "Jun",
+                        "Jul",
+                        "Aug",
+                        "Sep",
+                        "Oct",
+                        "Nov",
+                        "Dec"
                     ],
                     "long": [
                         "January",
@@ -217,13 +226,13 @@
                         "Sa."
                     ],
                     "short": [
-                        "Sun.",
-                        "Mon.",
-                        "Tue.",
-                        "Wed.",
-                        "Thu.",
-                        "Fri.",
-                        "Sat."
+                        "Sun",
+                        "Mon",
+                        "Tue",
+                        "Wed",
+                        "Thu",
+                        "Fri",
+                        "Sat"
                     ],
                     "long": [
                         "Sunday",
@@ -294,7 +303,8 @@
         "currencies": {
             "AUD": "$",
             "SCR": "Rs",
-            "XPF": "CFP"
+            "XPF": "CFP",
+            "XXX": "¤"
         }
     }
 }

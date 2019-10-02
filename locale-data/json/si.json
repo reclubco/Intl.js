@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d E",
                 "Ehm": "E a h.mm",
                 "EHm": "E HH.mm",
@@ -41,6 +46,8 @@
                 "MMMd": "MMM d",
                 "MMMEd": "MMM d E",
                 "MMMMd": "MMMM d",
+                "MMMMW-count-one": "MMMM සතිය W",
+                "MMMMW-count-other": "MMMM සතිය W",
                 "ms": "mm.ss",
                 "y": "y",
                 "yM": "y-M",
@@ -51,7 +58,9 @@
                 "yMMMEd": "y MMM d, E",
                 "yMMMM": "y MMMM",
                 "yQQQ": "y QQQ",
-                "yQQQQ": "y QQQQ"
+                "yQQQQ": "y QQQQ",
+                "yw-count-one": "Y සතිය w",
+                "yw-count-other": "Y සතිය w"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "y MMMM d, EEEE",
@@ -312,7 +321,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "සිෆ්එ",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

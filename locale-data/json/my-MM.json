@@ -10,61 +10,68 @@
         "formats": {
             "short": "{1} {0}",
             "medium": "{1} {0}",
-            "full": "{1}မှာ {0}",
+            "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "B h",
+                "Bhm": "B h:mm",
+                "Bhms": "B h:mm:ss",
                 "d": "d",
-                "E": "ccc",
-                "Ed": "E၊ d",
-                "Ehm": "E h:mm a",
+                "E": "cccနေ့",
+                "EBhm": "E B h:mm",
+                "EBhms": "E B h:mm:ss",
+                "Ed": "d ရက် Eနေ့",
+                "Ehm": "E B h:mm",
                 "EHm": "E HH:mm",
-                "Ehms": "E h:mm:ss a",
+                "Ehms": "E B h:mm:ss",
                 "EHms": "E HH:mm:ss",
                 "Gy": "G y",
-                "GyMMM": "G MMM y",
-                "GyMMMd": "G d MMM y",
-                "GyMMMEd": "E၊ G d MMM y",
-                "h": "h a",
+                "GyMMM": "G y MMM",
+                "GyMMMd": "G y၊ MMM d",
+                "GyMMMEd": "G y၊ MMM d၊ E",
+                "h": "B h",
                 "H": "HH",
-                "hm": "h:mm a",
+                "hm": "B h:mm",
                 "Hm": "HH:mm",
-                "hms": "h:mm:ss a",
+                "hms": "B h:mm:ss",
                 "Hms": "HH:mm:ss",
-                "hmsv": "h:mm:ss a v",
-                "Hmsv": "HH:mm:ss v",
-                "hmv": "h:mm a v",
-                "Hmv": "HH:mm v",
+                "hmsv": "v a h:mm:ss",
+                "Hmsv": "v HH:mm:ss",
+                "hmv": "v a h:mm",
+                "Hmv": "v HH:mm",
                 "M": "L",
                 "Md": "d/M",
-                "MEd": "E၊ d/M",
+                "MEd": "d/M၊ E",
                 "MMM": "LLL",
                 "MMMd": "d MMM",
-                "MMMEd": "E၊ d MMM",
-                "MMMMd": "d MMMM",
-                "MMMMEd": "E၊ d MMMM",
+                "MMMEd": "MMM d၊ E",
+                "MMMMd": "MMMM d",
+                "MMMMEd": "MMMM d ရက် Eနေ့",
+                "MMMMW-count-other": "MMMM လ W ပတ်မြောက်",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
                 "yMd": "dd-MM-y",
-                "yMEd": "E၊ d-M-y",
+                "yMEd": "d/M/y၊ E",
                 "yMMM": "MMM y",
-                "yMMMd": "d MMM y",
-                "yMMMEd": "E၊ d MMM y",
-                "yMMMM": "MMMM y",
-                "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yMMMd": "y၊ MMM d",
+                "yMMMEd": "y၊ MMM d၊ E",
+                "yMMMM": "y MMMM",
+                "yQQQ": "y QQQ",
+                "yQQQQ": "y QQQQ",
+                "yw-count-other": "Y ခု w ပတ်မြောက်"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE၊ dd MMMM y",
-                "yMMMMd": "d MMMM y",
-                "yMMMd": "d MMM y",
+                "yMMMMEEEEd": "y၊ MMMM d၊ EEEE",
+                "yMMMMd": "y၊ d MMMM",
+                "yMMMd": "y၊ MMM d",
                 "yMd": "dd-MM-yy"
             },
             "timeFormats": {
-                "hmmsszzzz": "HH:mm:ss zzzz",
-                "hmsz": "HH:mm:ss z",
-                "hms": "HH:mm:ss",
-                "hm": "HH:mm"
+                "hmmsszzzz": "zzzz HH:mm:ss",
+                "hmsz": "z HH:mm:ss",
+                "hms": "B HH:mm:ss",
+                "hm": "B H:mm"
             }
         },
         "calendars": {
@@ -181,7 +188,7 @@
                         "ဇန်",
                         "ဖေ",
                         "မတ်",
-                        "ဧပြီ",
+                        "ဧ",
                         "မေ",
                         "ဇွန်",
                         "ဇူ",
@@ -238,21 +245,21 @@
                 "eras": {
                     "narrow": [
                         "ဘီစီ",
-                        "အေဒီ",
+                        "အဒေီ",
                         "ဘီစီအီး",
                         "စီအီး"
                     ],
                     "short": [
                         "ဘီစီ",
-                        "အေဒီ",
+                        "အဒေီ",
                         "ဘီစီအီး",
                         "စီအီး"
                     ],
                     "long": [
-                        "ခရစ်တော် မပေါ်မီကာလ",
-                        "ခရစ်တော် ပေါ်ထွန်းပြီးကာလ",
-                        "ဘီစီအီး",
-                        "စီအီး"
+                        "ခရစ်တော် မပေါ်မီနှစ်",
+                        "ခရစ်နှစ်",
+                        "ဘုံခေတ် မတိုင်မီ",
+                        "ဘုံခေတ်"
                     ]
                 },
                 "dayPeriods": {
@@ -273,8 +280,8 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{currency} {number}",
-                "negativePattern": "{minusSign}{currency} {number}"
+                "positivePattern": "{number} {currency}",
+                "negativePattern": "{minusSign}{number} {currency}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",
@@ -302,14 +309,16 @@
             }
         },
         "currencies": {
+            "ANG": "NAf",
             "AUD": "A$",
+            "AWG": "Afl",
             "BRL": "R$",
             "CAD": "CA$",
             "CNY": "CN¥",
-            "CRC": "စီအာစီ",
             "EUR": "€",
             "GBP": "£",
             "HKD": "HK$",
+            "HTG": "G",
             "ILS": "₪",
             "INR": "₹",
             "JPY": "JP¥",
@@ -317,14 +326,17 @@
             "MMK": "K",
             "MXN": "MX$",
             "NZD": "NZ$",
+            "PAB": "B/.",
             "THB": "฿",
+            "TTD": "TT$",
             "TWD": "NT$",
             "USD": "US$",
             "VND": "₫",
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d, E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -40,24 +45,28 @@
                 "MMM": "LLL",
                 "MMMd": "d-MMM",
                 "MMMEd": "d-MMM, E",
-                "MMMMd": "MMMM d",
+                "MMMMd": "d-MMMM",
+                "MMMMW-count-one": "MMMM 'айынын' W-'аптасы'",
+                "MMMMW-count-other": "MMMM 'айынын' W-'аптасы'",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "y-MM",
-                "yMd": "y-MM-dd",
-                "yMEd": "y-MM-dd, E",
+                "yMd": "y-dd-MM",
+                "yMEd": "y-dd-MM, E",
                 "yMMM": "y-'ж'. MMM",
                 "yMMMd": "y-'ж'. d-MMM",
                 "yMMMEd": "y-'ж'. d-MMM, E",
-                "yMMMM": "y MMMM",
+                "yMMMM": "y-'ж'., MMMM",
                 "yQQQ": "y-'ж'., QQQ",
-                "yQQQQ": "y-'ж'., QQQQ"
+                "yQQQQ": "y-'ж'., QQQQ",
+                "yw-count-one": "Y-'жылдын' w-'аптасы'",
+                "yw-count-other": "Y-'жылдын' w-'аптасы'"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE, d-MMMM, y-'ж'.",
-                "yMMMMd": "y MMMM d",
-                "yMMMd": "y MMM d",
-                "yMd": "dd.MM.yy"
+                "yMMMMEEEEd": "y-'ж'., d-MMMM, EEEE",
+                "yMMMMd": "y-'ж'., d-MMMM",
+                "yMMMd": "y-'ж'., d-MMM",
+                "yMd": "d/M/yy"
             },
             "timeFormats": {
                 "hmmsszzzz": "HH:mm:ss zzzz",
@@ -250,7 +259,7 @@
                     "long": [
                         "биздин заманга чейин",
                         "биздин заман",
-                        "BCE",
+                        "б.з.ч.",
                         "CE"
                     ]
                 },
@@ -299,7 +308,8 @@
             "VND": "₫",
             "XAF": "FCFA",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

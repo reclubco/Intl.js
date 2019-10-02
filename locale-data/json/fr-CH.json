@@ -13,8 +13,13 @@
             "full": "{1} 'à' {0}",
             "long": "{1} 'à' {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "E",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -35,23 +40,28 @@
                 "hmv": "h:mm a v",
                 "Hmv": "HH:mm v",
                 "M": "L",
-                "Md": "dd/MM",
-                "MEd": "E dd/MM",
+                "Md": "dd.MM.",
+                "MEd": "E, dd.MM.",
+                "MMdd": "dd.MM",
                 "MMM": "LLL",
                 "MMMd": "d MMM",
                 "MMMEd": "E d MMM",
                 "MMMMd": "d MMMM",
+                "MMMMW-count-one": "'semaine' W (MMMM)",
+                "MMMMW-count-other": "'semaine' W (MMMM)",
                 "ms": "mm:ss",
                 "y": "y",
-                "yM": "MM/y",
-                "yMd": "dd/MM/y",
-                "yMEd": "E dd/MM/y",
+                "yM": "MM.y",
+                "yMd": "dd.MM.y",
+                "yMEd": "E, dd.MM.y",
                 "yMMM": "MMM y",
                 "yMMMd": "d MMM y",
                 "yMMMEd": "E d MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'semaine' w 'de' Y",
+                "yw-count-other": "'semaine' w 'de' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, d MMMM y",
@@ -271,8 +281,8 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{currency} {number}",
-                "negativePattern": "{currency}{minusSign}{number}"
+                "positivePattern": "{number} {currency}",
+                "negativePattern": "{minusSign}{number} {currency}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",
@@ -281,8 +291,8 @@
         },
         "symbols": {
             "latn": {
-                "decimal": ".",
-                "group": " ",
+                "decimal": ",",
+                "group": " ",
                 "nan": "NaN",
                 "plusSign": "+",
                 "minusSign": "-",
@@ -297,7 +307,6 @@
             "BMD": "$BM",
             "BND": "$BN",
             "BRL": "R$",
-            "BSD": "$BS",
             "BZD": "$BZ",
             "CAD": "$CA",
             "CLP": "$CL",
@@ -331,7 +340,8 @@
             "WST": "WS$",
             "XAF": "FCFA",
             "XOF": "CFA",
-            "XPF": "FCFP"
+            "XPF": "FCFP",
+            "XXX": "¤"
         }
     }
 }

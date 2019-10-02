@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "B h시",
+                "Bhm": "B h:mm",
+                "Bhms": "B h:mm:ss",
                 "d": "d일",
                 "E": "ccc",
+                "EBhm": "(E) B h:mm",
+                "EBhms": "(E) B h:mm:ss",
                 "Ed": "d일 (E)",
                 "EEEEd": "d일 EEEE",
                 "Ehm": "(E) a h:mm",
@@ -46,6 +51,7 @@
                 "MMMEd": "MMM d일 (E)",
                 "MMMEEEEd": "MMM d일 EEEE",
                 "MMMMd": "MMMM d일",
+                "MMMMW-count-other": "MMMM W번째 주",
                 "mmss": "mm:ss",
                 "ms": "mm:ss",
                 "y": "y년",
@@ -60,7 +66,8 @@
                 "yMMMEEEEd": "y년 MMM d일 EEEE",
                 "yMMMM": "y년 MMMM",
                 "yQQQ": "y년 QQQ",
-                "yQQQQ": "y년 QQQQ"
+                "yQQQQ": "y년 QQQQ",
+                "yw-count-other": "Y년 w번째 주"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "y년 M월 d일 EEEE",
@@ -313,14 +320,14 @@
             "KRW": "₩",
             "MXN": "MX$",
             "NZD": "NZ$",
-            "THB": "฿",
             "TWD": "NT$",
             "USD": "US$",
             "VND": "₫",
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }
